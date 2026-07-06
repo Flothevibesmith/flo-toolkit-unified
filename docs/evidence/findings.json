@@ -1,0 +1,915 @@
+[
+    {
+        "claim":  "Among UK undergraduates, the top assessment-related GenAI uses in 2025 were explaining concepts, summarising articles, and suggesting research ideas — comprehension tasks outrank writing tasks.",
+        "evidence":  "N=1,041 full-time UK undergraduates (Savanta, fieldwork Dec 2024): \u0027explain concepts\u0027 58% (up from 36% in 2024), summarising articles second most popular (~48%, up from ~a third in 2024), suggesting research ideas ~41%; one-quarter use AI-generated text to help draft assessments; 18% put AI-generated-and-edited text into assessed work; 88% used GenAI for assessments (up from 53%), 92% used AI in any way (up from 66%).",
+        "source":  "HEPI/Kortext, Student Generative AI Survey 2025 (Policy Note 61), https://www.hepi.ac.uk/reports/student-generative-ai-survey-2025/ (PDF: hepi.ac.uk/wp-content/uploads/2025/02/HEPI-Kortext-Student-Generative-AI-Survey-2025.pdf)",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "reading-research",
+        "facet":  "usage-surveys",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "corrected_claim":  "Among UK undergraduates (HEPI/Kortext Student Generative AI Survey 2025, Policy Note 61; Savanta poll of 1,041 full-time UK undergraduates, Dec 2024), the top assessment-related GenAI uses were explaining concepts (58%, up from 36% in 2024), summarising a relevant article (48%, up from 24% per the report\u0027s Figure 2, though the report\u0027s prose says \"up from a third\"), and suggesting research ideas (41%, up from 25%). Comprehension/ideation tasks outranked writing tasks: 25% used AI-generated text to help draft assessments (i.e., used it in assessments after editing it), 18% used AI-generated text edited with AI in assessed work, and 8% used it without editing. 88% used GenAI for assessments (up from 53%); 92% used AI in some form (up from 66%).",
+                        "notes":  "Located and fetched the primary source: the HEPI landing page (hepi.ac.uk/reports/student-generative-ai-survey-2025/) and the full PDF (HEPI-Kortext-Student-Generative-AI-Survey-2025.pdf), which I downloaded, text-extracted with pdftotext, and rendered Figure 2 as an image with PyMuPDF to read the chart values directly. Confirmed: (a) it is HEPI Policy Note 61, February 2025, by Josh Freeman; (b) methodology: \"we polled 1,041 full-time undergraduate students through Savanta in December 2024,\" weighted, ~3% margin of error; (c) prose verbatim: \"To \u0027explain concepts\u0027 remains the most popular function, with 58% of students using it for this purpose, up from 36% in 2024... the use of AI to summarise articles... is now the second most popular use of GenAI, up from a third in 2024. One-quarter of students use AI-generated text to help them draft assessments and nearly a fifth of students (18%) use AI-generated and edited text in their assessments\"; (d) Figure 2 chart values match the claim: summarise a relevant article 48% (second), suggest research ideas 41% (third); (e) 88% used GenAI for assessments vs 53% in 2024; 92% used AI in some form vs 66% in 2024. The ranking supports the interpretation: the top three uses (explain 58%, summarise 48%, research ideas 41%, plus structure thoughts 39%) all outrank the writing/text-insertion uses (25%, 18%, 8%). Two minor caveats: (1) the source contains an internal inconsistency — the prose says summarising is \"up from a third in 2024\" while its own Figure 2 shows 24% (about a quarter); the claim\u0027s \"up from ~a third\" faithfully echoes the prose but the chart figure is 24%; (2) \"suggesting research ideas\" is ideation rather than strictly comprehension, but this does not change the comprehension-over-writing ordering. Every number, the year, the population, and the interpretation check out against the primary source."
+                    }
+    },
+    {
+        "claim":  "By the 2026 HEPI wave, GenAI use for assessed work is near-universal among UK undergraduates and the task ranking is stable: explaining concepts \u003e summarising articles \u003e research ideas ≈ structuring thoughts \u003e AI web search \u003e drafting; direct pasting of AI text remains a small minority.",
+        "evidence":  "N=1,054 full-time UK undergraduates (Savanta, Dec 2025): 94% use GenAI for assessed work (53% in 2024, 88-89% in 2025); explain concepts 61%, summarise a relevant article ~49% (\u0027half\u0027), suggest ideas for research 40%, structure my thoughts 39%, use AI to search the internet 36% (new option), generate text then self-edit ~25%, include AI-generated text directly 12% (vs 8% in 2025, 3% in 2024); 95% use AI in at least one way.",
+        "source":  "HEPI/Kortext, Student Generative AI Survey 2026 (Report 199), https://www.hepi.ac.uk/wp-content/uploads/2026/03/HEPI-Report-199-Gen-AI-Survey-2026.pdf",
+        "year":  "2026",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "usage-surveys",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "corrected_claim":  "By the 2026 HEPI/Kortext wave (Report 199, N=1,054 full-time UK undergraduates polled via Savanta in Dec 2025), GenAI use for assessed work is near-universal (94%, up from ~53% in 2024 and 89% in 2025 on the comparable series; the 2025 report itself reported 88%) and the task ranking is stable: explaining concepts 61% \u003e summarising a relevant article 49% \u003e suggesting research ideas 40% ≈ structuring thoughts 39% \u003e AI web search 36% (new option) \u003e generating text then self-editing 25%. Including AI-generated text directly remains a minority at 12%, but this is a significant rise (8% in 2025, 3% in 2024). 95% use AI in at least one way (any purpose, not only assessed work).",
+                        "notes":  "Located and fetched the exact primary source: HEPI Report 199, Student Generative AI Survey 2026 (hepi.ac.uk/wp-content/uploads/2026/03/HEPI-Report-199-Gen-AI-Survey-2026.pdf, 52 pp.), plus the HEPI report landing page (hepi.ac.uk/reports/student-generative-ai-survey-2026/). Extracted the PDF text directly and checked every number. Methodology section confirms: 1,054 full-time undergraduate students polled through Savanta in December 2025 (UCAS did the 2024 wave), margin of error ~3%. Prose confirms: 94% use generative AI to help with assessed work (\"just over half\" = 53% in 2024, 89% in 2025 as restated in this report; the 2025 report originally said 88%, so the claim\u0027s \"88-89%\" is fair); 95% use AI in at least one way (66% in 2024, 92% in 2025 — note this is AI for ANY purpose, not just assessed work, as the evidence correctly implies). Figure 4 (2026 column, verified from extracted chart data and prose): explain concepts 61%, summarise a relevant article 49% (prose: \"half\"), suggest ideas for research 40%, structure my thoughts 39%, use AI to search the internet 36% (new option, asterisked), generate text then edited before incorporating 25%, include AI-generated text directly 12% (prose: \"increased from 8% of students in 2025 and 3% of students in 2024\"). Ranking matches the claim and is stable vs 2025 (58/47/40/39/25). Report is dated/published March 2026 per URL path and search results. Only nuances: (1) the 12% direct-inclusion figure, while still a small minority, is a flagged significant increase (quadrupled since 2024), which the claim\u0027s evidence acknowledges; (2) 2025 assessed-work baseline is 89% in this report\u0027s comparable series vs 88% in the 2025 publication. No refuting discrepancies found. Sources: https://www.hepi.ac.uk/wp-content/uploads/2026/03/HEPI-Report-199-Gen-AI-Survey-2026.pdf and https://www.hepi.ac.uk/reports/student-generative-ai-survey-2026/"
+                    }
+    },
+    {
+        "claim":  "For general (non-assessment) use, text generation is the single most popular AI activity among UK students but is declining, while textbook summarising/note-taking/quizzing and writing-editing tools form the second tier.",
+        "evidence":  "HEPI 2026 (N=1,054): generating text e.g. ChatGPT 56% (down from 64% in 2025, 30% in 2024); summarising/note-taking/quizzing university textbooks (e.g. Kortext) is the second most popular use; enhancing/editing writing (e.g. Grammarly) 38%; translation/language support ~37%; writing code ~20%; speech-to-text 18%; data analysis ~15%.",
+        "source":  "HEPI/Kortext, Student Generative AI Survey 2026 (Report 199), https://www.hepi.ac.uk/wp-content/uploads/2026/03/HEPI-Report-199-Gen-AI-Survey-2026.pdf",
+        "year":  "2026",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "usage-surveys",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "corrected_claim":  "For general (any-purpose) use, text generation (e.g. ChatGPT) is the single most popular AI activity among UK students but fell from 64% (2025) to 56% (2026), having been 30% in 2024. Summarising/note-taking/quizzing university textbooks (e.g. Kortext, 38%) is the second most popular use, followed by enhancing/editing writing (e.g. Grammarly, 37%). Other 2026 figures: translation/language support 31%, generating images/video/audio 22%, speech-to-text 18%, writing code 17%, data analysis and presentation 17%. (HEPI/Kortext Student Generative AI Survey 2026, Report 199, N=1,054 full-time UK undergraduates, Savanta fieldwork December 2025.)",
+                        "notes":  "Fetched the primary source PDF at the exact URL given (HEPI Report 199, Student Generative AI Survey 2026, 52 pages) and extracted Figure 1 (p.11) with positional PDF parsing to map each percentage to its bar and year. VERIFIED: N=1,054 full-time UK undergraduates, polled via Savanta December 2025 (p.8); text generation 56% in 2026, down from 64% in 2025, 30% in 2024 — exact match; report text explicitly states generating text \"remains the most popular use of AI\" despite the drop, with summarising/note-taking/quizzing textbooks (Kortext) the \"second most popular use... followed by enhancing or editing writing using tools such as Grammarly\" — so the claim\u0027s ranking and trend interpretation are correct. IMPRECISIONS in the reported evidence: Grammarly is 37% not 38% (38% is the Kortext summarising option); translation/language support is 31% not ~37% (35% was the 2025 figure); writing code is 17% not ~20%; data analysis is 17% not ~15% (15% was the 2025 value); speech-to-text 18% is correct. One framing caveat: the question covers AI used \"for any purpose, including your studies, employment, hobbies and so on\" — it is the general-use question (distinct from the separate assessed-work question), not strictly \"non-assessment\" use. Also note \"declining\" applies only to the 2025-to-2026 change; the 2026 figure is still far above 2024\u0027s 30%. Core claim directionally and substantively correct, so verified=true with corrected figures supplied."
+                    }
+    },
+    {
+        "claim":  "Globally, information search is the #1 student AI use case, with writing-mechanics and summarising mid-tier and full drafting last.",
+        "evidence":  "N=3,839 students (bachelor/master/doctorate) across 16 countries, July 2024: search for information 69%, check grammar 42%, summarise documents 33%, paraphrase a document 28%, create a first draft 24%; 86% use AI in their studies, 54% at least weekly, 24% daily; ChatGPT used by 66%, Grammarly and Copilot 25% each; students use avg 2.1 AI tools.",
+        "source":  "Digital Education Council, Global AI Student Survey 2024, https://cdn.prod.website-files.com/65f1d299b87bcc50550a6398/66a46f7b2a6137a25d3f69bb_Digital%20Education%20Council%20Global%20AI%20Student%20Survey%202024.pdf",
+        "year":  "2024",
+        "strength":  "strong",
+        "relevance":  "reading-research",
+        "facet":  "usage-surveys",
+        "verdict":  null
+    },
+    {
+        "claim":  "In the largest multi-country undergraduate survey, most GenAI-using students frame their use as comprehension support (\u0027understanding subjects\u0027) rather than output generation.",
+        "evidence":  "N=11,706 undergraduates across 15 countries (Yonder Consulting, fieldwork Oct 1-23, 2024): 80% have used GenAI to support studies; 56% of GenAI users primarily rely on it to better understand subjects; 55% cite faster learning; 35% personalized learning; self-reported improvements: understanding complex concepts 50%, completing assignments 49%, organizing workload 41%.",
+        "source":  "Chegg.org, Global Student Survey 2025, https://www.chegg.org/global-student-survey-2025",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "usage-surveys",
+        "verdict":  null
+    },
+    {
+        "claim":  "Within writing-related GenAI use, students mostly use it for mechanics (grammar) rather than full essay generation.",
+        "evidence":  "Chegg Global Student Survey 2025 (N=11,706 undergrads, 15 countries): among writing-related activities, grammar checking 58% of students, writing essays/papers 42%, summarizing long texts 39%; 53% of GenAI users concerned about inaccurate information.",
+        "source":  "Chegg press release via Businesswire/Nasdaq, \u0027Chegg Global Student Survey 2025: 80% of Undergraduates Worldwide Have Used GenAI\u0027, https://www.chegg.com/about/newsroom/press-release/chegg-global-student-survey-2025-80-of-undergraduates-worldwide-have-used-genai-to-support-their-studies-but-accuracy-a-top-concern",
+        "year":  "2025",
+        "strength":  "moderate",
+        "relevance":  "writing",
+        "facet":  "usage-surveys",
+        "verdict":  null
+    },
+    {
+        "claim":  "In observed (not self-reported) usage of Claude.ai, students\u0027 top activities are creating/improving educational content and getting technical explanations/solutions, with the AI performing predominantly higher-order cognitive work.",
+        "evidence":  "~1M anonymized Claude.ai conversations from higher-ed email accounts, 574,740 filtered as academic: create/improve educational content 39.3%, technical explanations/solutions 33.5%, data analysis/visualization 11.0%, research design/tool development 6.5%, technical diagrams 3.2%, translation/proofreading 2.4%; Bloom\u0027s taxonomy of AI\u0027s action: Creating 39.8%, Analyzing 30.2%, Applying 10.9%, Understanding 10.0%, Remembering 1.8%; ~47% of conversations were \u0027Direct\u0027 (answer-seeking) vs collaborative; CS students 38.6% of conversations vs 5.4% of US degrees.",
+        "source":  "Anthropic, \u0027Anthropic Education Report: How University Students Use Claude\u0027, https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "usage-surveys",
+        "verdict":  null
+    },
+    {
+        "claim":  "OpenAI\u0027s usage data shows over a third of US college-aged adults use ChatGPT, with roughly a quarter of their messages learning-related, and the top uses being paper-starting, summarizing, brainstorming, and topic exploration.",
+        "evidence":  "OpenAI internal user-data analysis (US, 18-24): \u003e1/3 use ChatGPT; ~25% of their messages relate to learning/tutoring/schoolwork; \u003e40% of current users used it for starting papers and projects, summarizing texts, brainstorming creative projects, and exploring topics; math problem-solving, exam prep, and academic research also common (percentages not published); 3 in 4 college-aged users want AI in education/careers.",
+        "source":  "OpenAI, \u0027College students and ChatGPT adoption in the US\u0027 (openai.com/global-affairs/college-students-and-chatgpt/; primary page blocked 403, figures confirmed via Fortune https://fortune.com/education/articles/openai-report-more-than-one-third-college-aged-adults-use-chatgpt/ and BestColleges https://www.bestcolleges.com/news/students-embrace-chatgpt/)",
+        "year":  "2025",
+        "strength":  "moderate",
+        "relevance":  "writing",
+        "facet":  "usage-surveys",
+        "verdict":  null
+    },
+    {
+        "claim":  "Among US teens (the incoming university cohort), schoolwork help is the #2 chatbot use after information search, and within schoolwork the top tasks are researching topics, solving math problems, and editing written work.",
+        "evidence":  "N=1,458 US teens 13-17 (fieldwork Sep 25-Oct 9, 2025, MoE ±3.3pp): 57% use chatbots to search for information, 54% for schoolwork help, ~40% to summarize articles/books/videos; within schoolwork: ~40%+ researching topics, ~40%+ solving math problems, 35% editing written work; 10% do all/most schoolwork with chatbot help, 21% some; 59% believe schoolmates use AI to cheat at least somewhat often.",
+        "source":  "Pew Research Center, \u0027How Teens Use and View AI\u0027, https://www.pewresearch.org/internet/2026/02/24/how-teens-use-and-view-ai/",
+        "year":  "2026",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "usage-surveys",
+        "verdict":  null
+    },
+    {
+        "claim":  "US college students\u0027 regular GenAI use keeps rising, but reliance on AI as first resort when stuck on a concept collapsed after a 2024 spike — students still overwhelmingly turn to people first.",
+        "evidence":  "Time for Class 2025 (Spring 2025; student n=1,529 for usage question, n=1,210 for help-seeking; plus 1,500+ instructors, 300+ administrators at 900+ US institutions): 42% of students use GenAI weekly or daily (up from 36% in 2024, 15% in 2023); when struggling with a concept, students primarily turn to people 84%, static resources 58%, GenAI 17% — down from 30% in Spring 2024 (4% in 2023); ChatGPT used by 65% of GenAI-trying students vs Gemini 25%.",
+        "source":  "Tyton Partners, \u0027Time for Class 2025: Empowering Educators, Engaging Students\u0027, https://4213961.fs1.hubspotusercontent-na1.net/hubfs/4213961/Publications/Time%20for%20Class/Tyton%20Partners_Time%20for%20Class%202025.pdf",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "planning",
+        "facet":  "usage-surveys",
+        "verdict":  null
+    },
+    {
+        "claim":  "A significant minority of AI-using US college students have GenAI write large parts of assignments, exceeding what faculty say they permit.",
+        "evidence":  "Time for Class 2024 (Spring 2024; ~1,600 students, ~1,800 instructors): 59% of students used GenAI for schoolwork at least monthly (up from 43% in spring 2023); 27% of AI-using students report using AI to write large parts of assignments, and nearly half of AI-using students use tools to write content; ~20% of AI-using faculty allow first drafts/parts of assignments; 50% of students would keep using GenAI even if banned.",
+        "source":  "Tyton Partners, \u0027Time for Class 2024\u0027 via https://tytonpartners.com/racing-forward-bridging-the-gap-between-generative-ai-proficiency-and-educational-practice/ and Inside Higher Ed https://www.insidehighered.com/news/student-success/academic-life/2025/06/11/65-percent-students-use-gen-ai-chat-bot-weekly",
+        "year":  "2024",
+        "strength":  "moderate",
+        "relevance":  "writing",
+        "facet":  "usage-surveys",
+        "verdict":  null
+    },
+    {
+        "claim":  "The largest academic survey of an entire national student population found \u0027clarifying questions of understanding / explaining subject-specific concepts\u0027 is the single most prevalent AI use case, roughly double any other category.",
+        "evidence":  "N=6,311 German university students (fieldwork May 15-Jun 5, 2023): 63.4% had used AI-based tools for their studies (49% explicitly ChatGPT/GPT-4); use cases among all surveyed: clarifying understanding/explaining concepts 56.5%, research and literature work 28.6%, translations 26.6%, text analysis/processing/creation 24.8%, problem-solving and decision-making 22.1%; engineering/math/natural-science students use AI most.",
+        "source":  "von Garrel, J. \u0026 Mayer, J., \u0027Artificial Intelligence in studies—use of ChatGPT and AI-based tools among students in Germany\u0027, Humanities and Social Sciences Communications 10:799, https://www.nature.com/articles/s41599-023-02304-7",
+        "year":  "2023",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "usage-surveys",
+        "verdict":  null
+    },
+    {
+        "claim":  "Students\u0027 stated motivations for using GenAI are time-saving and quality improvement, while the main deterrents are fear of misconduct accusations and hallucinations — implying an assistant must be perceived as legitimate and accurate, not just capable.",
+        "evidence":  "HEPI 2025 (N=1,041 UK undergrads): 51% use AI mainly to save time, 50% to improve work quality; deterrents: 53% fear being accused of cheating, 51% fear false results/hallucinations; 76% say their institution would spot AI in assessed work; only 36% received institutional support to develop AI skills.",
+        "source":  "HEPI/Kortext, Student Generative AI Survey 2025, https://www.hepi.ac.uk/reports/student-generative-ai-survey-2025/",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "usage-surveys",
+        "verdict":  null
+    },
+    {
+        "claim":  "Explicit exam-prep/self-quizzing is rarely broken out as its own category in student surveys and, where visible, sits below explanation and summarising — e.g., textbook quizzing/note-taking tools reach ~30% and OpenAI lists exam prep below its \u003e40% top-four uses.",
+        "evidence":  "HEPI 2026: \u0027summarising, note-taking or quizzing university textbooks\u0027 is the #2 general use (~30% vs 56% text generation); OpenAI college report lists exam prep and math among \u0027other common\u0027 uses below the \u003e40% tier (starting papers, summarizing, brainstorming, exploring topics); von Garrel \u0026 Mayer list exam preparation as a named but unquantified minor category; DEC 2024 has no exam-prep category at all.",
+        "source":  "Synthesis across HEPI Report 199 (hepi.ac.uk), OpenAI college students report (via Fortune/BestColleges), von Garrel \u0026 Mayer 2023 (nature.com), DEC Global AI Student Survey 2024 (digitaleducationcouncil.com)",
+        "year":  "2023-2026",
+        "strength":  "moderate",
+        "relevance":  "study-memory",
+        "facet":  "usage-surveys",
+        "verdict":  null
+    },
+    {
+        "claim":  "Planning/organizing studies is a secondary but real use: structuring thoughts is used by ~4 in 10 UK students, and organizing workload is one of the top three self-reported benefits globally.",
+        "evidence":  "HEPI 2026: \u0027used AI to structure my thoughts\u0027 39% (36% in 2025); HEPI 2025 shows structuring thoughts at 44% among higher socio-economic (ABC1) students vs lower among C2DE; Chegg 2025 (N=11,706): 41% report improved workload organization from GenAI; Pew 2026 teens: ~20% of teen chatbot users get news, 16% casual conversation — organizational uses not separately tracked for teens.",
+        "source":  "HEPI Report 199 (hepi.ac.uk/wp-content/uploads/2026/03/HEPI-Report-199-Gen-AI-Survey-2026.pdf); Chegg.org Global Student Survey 2025 (chegg.org/global-student-survey-2025)",
+        "year":  "2025-2026",
+        "strength":  "strong",
+        "relevance":  "planning",
+        "facet":  "usage-surveys",
+        "verdict":  null
+    },
+    {
+        "claim":  "Roughly one in seven UK students now uses AI for companionship or emotional support, a nascent use category adjacent to academic assistance.",
+        "evidence":  "HEPI 2026 (N=1,054): 15% use AI for friendship, company, advice or tackling loneliness; 8% use counselling/therapy provided solely by AI; 20% say AI makes them lonelier vs 21% less lonely; Pew 2026 (N=1,458 teens): 12% of teens use chatbots for emotional support or advice.",
+        "source":  "HEPI Report 199 (hepi.ac.uk); Pew Research Center \u0027How Teens Use and View AI\u0027 (pewresearch.org/internet/2026/02/24/how-teens-use-and-view-ai/)",
+        "year":  "2026",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "usage-surveys",
+        "verdict":  null
+    },
+    {
+        "claim":  "Student Claude usage is radically skewed toward Computer Science and STEM, while business, humanities, and health students are heavily underrepresented relative to enrollment.",
+        "evidence":  "From 574,740 anonymized student conversations (filtered from ~1M Claude.ai conversations from higher-ed email accounts): Computer Science = 38.6% of conversations vs 5.4% of US bachelor\u0027s degrees; Natural Sciences \u0026 Mathematics = 15.2% vs 9.2%; Business = 8.9% vs 18.6%; Humanities = 6.4% vs 12.5%; Health Professions = 5.5% vs 13.1%.",
+        "source":  "Anthropic, \"Anthropic Education Report: How University Students Use Claude\" — https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "discipline-differences",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "notes":  "Fetched the primary source (anthropic.com/news/anthropic-education-report-how-university-students-use-claude, published Apr 8, 2025) three times with independent prompts, plus a corroborating web search. All reported figures match verbatim: 574,740 conversations filtered from ~1M anonymized Claude.ai Free/Pro conversations tied to higher-ed email addresses; CS 38.6% of conversations vs 5.4% of US bachelor\u0027s degrees; Natural Sciences \u0026 Math 15.2% vs 9.2%; Business 8.9% vs 18.6%; Humanities 6.4% vs 12.5%; Health Professions 5.5% vs 13.1% (degree shares via NCES). Interpretation (\"radically skewed toward CS/STEM, business/humanities/health underrepresented relative to enrollment\") matches the report\u0027s own framing. Minor caveats that do not falsify the claim: (a) the article\u0027s summary bullet once says CS = 36.8% of students\u0027 conversations while the detailed section says 38.6% — the claim matches the detailed figure; (b) the report notes the sample likely captures early adopters within a single 18-day retention window, and percentages are conversation-topic shares, not a census of student majors. Third-party coverage (Tibor Blaho on X, GIGAZINE) independently repeats 574,740 and 38.6%/5.4%.",
+                        "corrected_claim":  "Accurate as stated. Optional precision: percentages are shares of Claude.ai conversations mapped to subject areas (from early-adopter students with higher-ed email addresses in an 18-day window), compared against NCES US bachelor\u0027s degree shares; the report also cites 36.8% in one summary sentence for CS, with 38.6% in the detailed breakdown."
+                    }
+    },
+    {
+        "claim":  "How students interact with AI differs by discipline: STEM students lean collaborative/problem-solving, while humanities, business, and health students split more evenly between collaborative and direct answer-seeking; nearly half of all student conversations are \u0027Direct\u0027 (minimal engagement).",
+        "evidence":  "Same 574,740-conversation dataset: four interaction patterns (Direct/Collaborative x Problem Solving/Output Creation) each ~23-29%; ~47% of conversations were Direct; top task categories were creating/improving educational content (39.3%) and technical explanations or solutions (33.5%), then data analysis/visualization (11.0%), research design (6.5%), technical diagrams (3.2%), translation/proofreading (2.4%); Natural Sciences/Math emphasized step-by-step problem solving, CS/Engineering favored collaborative debugging, Education showed strongest output creation (74.4%).",
+        "source":  "Anthropic, \"Anthropic Education Report: How University Students Use Claude\" — https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "discipline-differences",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "notes":  "Located the primary source at the exact URL given: Anthropic, \"Anthropic Education Report: How University Students Use Claude,\" published April 8, 2025. Ran three targeted fetches (summary pass, verbatim-quote pass, keyword pass) against the live page. Findings: (1) Dataset matches — ~1 million anonymized Claude.ai conversations from Free and Pro accounts tied to higher-education email addresses, filtered to \"574,740 conversations\" over an 18-day period. (2) Verbatim: \"These four interaction styles were represented at similar rates (each between 23% and 29% of conversations)\" — matches the ~23-29% figure. (3) Verbatim: \"Nearly half (~47%) of student-AI conversations were Direct—that is, seeking answers or content with minimal engagement\" — the ~47% Direct figure is explicit, not inferred. (4) Task-category percentages all match: create/improve educational content 39.3%, technical explanations or solutions 33.5%, analyze/visualize data 11.0%, research design/tool development 6.5%, technical diagrams 3.2%, translate/proofread 2.4%. (5) Discipline findings match: Natural Sciences \u0026 Mathematics \"tended toward Problem Solving\" with \"step-by-step\" examples; \"Computer Science, Engineering, and Natural Sciences \u0026 Mathematics leaned towards Collaborative conversations\"; \"Humanities, Business, and Health were more evenly split... between Collaborative and Direct conversations\"; \"Education showed the strongest preference for Output Creation, covering 74.4% of conversations.\" Two minor imprecisions in the EVIDENCE AS REPORTED (not the claim itself): (a) \"CS/Engineering favored collaborative debugging\" conflates two separate statements — the report says CS/Engineering leaned Collaborative (Direct-vs-Collaborative axis), while \"debug and fix errors in coding assignments\" appears as an example under the technical-explanations task category (33.5%), not as a named \"collaborative debugging\" pattern; (b) the Problem Solving lean is stated specifically for Natural Sciences \u0026 Mathematics, not for STEM broadly. The headline claim is directionally and numerically accurate.",
+                        "corrected_claim":  "Per Anthropic\u0027s Education Report (April 8, 2025; 574,740 filtered student conversations on Claude.ai over an 18-day period): interaction styles differ by discipline — Computer Science, Engineering, and Natural Sciences \u0026 Mathematics leaned toward Collaborative conversations (with Natural Sciences \u0026 Mathematics specifically tending toward Problem Solving), while Humanities, Business, and Health conversations were more evenly split between Collaborative and Direct; nearly half (~47%) of all student-AI conversations were Direct (seeking answers or content with minimal engagement), and the four interaction styles (Direct/Collaborative x Problem Solving/Output Creation) each accounted for 23-29% of conversations."
+                    }
+    },
+    {
+        "claim":  "In the UK, AI use among undergraduates is near-universal, with a documented digital divide favoring male, STEM/Health, and socioeconomically advantaged students.",
+        "evidence":  "N=1,041 full-time UK undergraduates (Savanta, Dec 2024, ~3% margin of error): 92% use AI (up from 66% in 2024), 88% used generative AI for assessments (up from 53%); report explicitly identifies higher use among male students, students on STEM and Health courses, and more advantaged students; motivations: saving time (51%), improving quality (50%); barriers: fear of cheating accusations (53%), hallucinations (51%).",
+        "source":  "Higher Education Policy Institute (HEPI)/Kortext, Josh Freeman, \"Student Generative AI Survey 2025\" — https://www.hepi.ac.uk/reports/student-generative-ai-survey-2025/",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "discipline-differences",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "notes":  "Fetched the attributed primary source directly (hepi.ac.uk/reports/student-generative-ai-survey-2025/) and corroborated via web search (HEPI press release, full PDF, University World News). Every element of the evidence matches the source verbatim or near-verbatim: (1) Methodology: 1,041 online interviews with full-time undergraduate students conducted by Savanta in December 2024; page states \u0027The margin of error is approximately 3%.\u0027 The report is by Josh Freeman for HEPI/Kortext, published 26 February 2025, and concerns UK undergraduates. (2) \u002792% use AI (up from 66%)\u0027 — source: \u0027The proportion of students reporting using any AI tool has jumped from 66% last year to 92% this year.\u0027 The prior figure comes from the 2024 edition of the same survey, so \u0027up from 66% in 2024\u0027 is correct. (3) \u002788% used generative AI for assessments (up from 53%)\u0027 — source: \u0027using generative AI tools such as ChatGPT for assessments has jumped from 53% last year to 88% this year.\u0027 (4) Digital divide — source explicitly states: \u0027There is a growing digital divide in AI use, with male students, students on STEM and Health courses and more socioeconomically advantaged students more likely to use AI than others.\u0027 This directly supports the claim\u0027s demographic interpretation. (5) Motivations — save time 51%, improve quality of work 50%: exact match. (6) Barriers — being accused of cheating 53%, false results/\u0027hallucinations\u0027 51%: exact match. Interpretation checks: \u0027near-universal\u0027 is a fair characterization of 92% any-AI use; note the digital divide finding is about likelihood of use (relative differences), which the claim states correctly (\u0027favoring\u0027 = higher use among those groups). No discrepancies in number, year, population, or interpretation found."
+                    }
+    },
+    {
+        "claim":  "By late 2025 UK undergraduate AI use plateaued at near-total saturation and AI-generated text is increasingly submitted in assessed work, with Arts \u0026 Humanities students feeling most under-supported in AI skills.",
+        "evidence":  "N=1,054 full-time UK undergraduates (Savanta, Dec 2025): 95% use AI in at least one way, 94% use generative AI for assessed work; share including AI-generated text in assessed work rose 3% (2024) → 8% (2025) → 12% (2026); ~15% use AI for companionship/loneliness; Arts and Humanities students particularly likely to feel under-supported.",
+        "source":  "Higher Education Policy Institute (HEPI), \"Student Generative Artificial Intelligence Survey 2026\" — https://www.hepi.ac.uk/reports/student-generative-ai-survey-2026/",
+        "year":  "2026",
+        "strength":  "strong",
+        "relevance":  "writing",
+        "facet":  "discipline-differences",
+        "verdict":  null
+    },
+    {
+        "claim":  "Large German national survey complicates the \u0027humanities lag\u0027 narrative: arts/humanities students\u0027 AI usage nearly matches engineering, while law/economics/social sciences and medicine/health trail substantially — but purposes differ sharply by field.",
+        "evidence":  "N=6,311 German students (May 15-Jun 5, 2023): overall 63.4% used AI tools for studies; Engineering 75.3%, Arts \u0026 Humanities 73.4%, Math \u0026 Natural Sciences 71.9%, Law/Economics/Social Sciences 58.4%, Medicine/Health 52.7%, Agriculture/Forestry/Nutrition 47.6%. Top use across fields: clarifying understanding/explaining concepts (56.5% of users); engineers add programming/simulations (27.2%) and problem-solving (30.3%); humanities students add literature research (30.3%), translation (28.6%), text analysis/creation (25.4%).",
+        "source":  "von Garrel \u0026 Mayer, \"Artificial Intelligence in studies—use of ChatGPT and AI-based tools among students in Germany\", Humanities and Social Sciences Communications 10:799 — https://www.nature.com/articles/s41599-023-02304-7",
+        "year":  "2023",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "discipline-differences",
+        "verdict":  null
+    },
+    {
+        "claim":  "At a selective US liberal arts college, adoption gaps by discipline are extreme within one campus: natural-science majors near-universal adopters while literature and language majors lag by 30-40 points.",
+        "evidence":  "N=634 Middlebury College undergraduates (22.9% response rate, pop. 2,760): 82.5% used AI academically by Fall 2024 (from \u003c10% before Spring 2023); by discipline: Natural Sciences 91.1%, Social Sciences 84.6%, Languages 57.4%, Literature 48.6%; gender gap 88.7% (male) vs 78.4% (female); below-median-GPA students 87.1% vs above-median 80.3%.",
+        "source":  "Contractor \u0026 Reyes, \"Generative AI in Higher Education: Evidence from an Elite College\", arXiv:2508.00717 — https://arxiv.org/html/2508.00717v1",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "discipline-differences",
+        "verdict":  null
+    },
+    {
+        "claim":  "Students use AI more to augment learning than to automate output, and use-case frequencies quantify this: explanation and summarization dominate over essay-writing and coding.",
+        "evidence":  "Middlebury sample (N=634): among AI users — explaining concepts 80.3%, summarizing texts 74.0%, finding information 63.1%, generating ideas 61.9%, proofreading 54.1%, editing essays 47.3%, coding assistance 34.4%, writing essays 23.5%; augmentation users 61.2% vs automation users 41.9%; only 11.3% pay for any AI service; 89.9% unaware of free premium tools; 67.4% don\u0027t know how to cite AI properly.",
+        "source":  "Contractor \u0026 Reyes, \"Generative AI in Higher Education: Evidence from an Elite College\", arXiv:2508.00717 — https://arxiv.org/html/2508.00717v1",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "discipline-differences",
+        "verdict":  null
+    },
+    {
+        "claim":  "Institutional AI policy strongly shapes stated student usage, implying an academic assistant must adapt to per-course policy contexts.",
+        "evidence":  "Middlebury sample: likelihood of using AI drops from 52.4% (unrestricted) to 40.9% (citation required) to 13.4% (explicitly prohibited) — a 37.8 pp decline under prohibition; 79.1% say they understand when/where AI is allowed.",
+        "source":  "Contractor \u0026 Reyes, \"Generative AI in Higher Education: Evidence from an Elite College\", arXiv:2508.00717 — https://arxiv.org/html/2508.00717v1",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "planning",
+        "facet":  "discipline-differences",
+        "verdict":  null
+    },
+    {
+        "claim":  "Globally, 86% of students across 16 countries use AI in their studies, but universities are failing to meet their AI expectations, and information search — not writing — is the top use case.",
+        "evidence":  "N=3,839 bachelor\u0027s/master\u0027s/doctorate students, 16 countries: 86% use AI in studies, 24% daily, 54% at least weekly; ChatGPT 66%, Grammarly 25%, Copilot 25%; avg 2.1 tools/student; use cases: information searching 69%, grammar checking 42%, summarizing 33%, paraphrasing 28%, first drafts 24%; 58% feel they lack sufficient AI knowledge/skills, 48% feel unprepared for AI-enabled workplace, 80% say university AI integration does not fully meet expectations; 72-73% want AI training for students and faculty.",
+        "source":  "Digital Education Council, \"Global AI Student Survey 2024: AI or Not AI - What Students Want\" (full PDF) — https://cdn.prod.website-files.com/65f1d299b87bcc50550a6398/66a46f7b2a6137a25d3f69bb_Digital%20Education%20Council%20Global%20AI%20Student%20Survey%202024.pdf",
+        "year":  "2024",
+        "strength":  "strong",
+        "relevance":  "planning",
+        "facet":  "discipline-differences",
+        "verdict":  null
+    },
+    {
+        "claim":  "Romanian student data: ChatGPT adoption in Bucharest is high (85.5% tried it) across 11 faculties spanning psychology, business, engineering, and medicine, but attitudes skew cautious-to-distrustful rather than enthusiastic.",
+        "evidence":  "N=508 Bucharest bachelor\u0027s and master\u0027s students (11 faculties incl. Psychology n=67, Automatics \u0026 Computers n=67, Medicine n=64, Engineering n=54, Business/Administration n=42; ages 20-49, M=33.7): 85.53% used ChatGPT at least once; attitude clusters: cautious 42.45% of sample, distrustful/fearful 29.67%, positive/open 27.86%; openness correlated with extraversion (r=0.56) and autonomy (r=0.64).",
+        "source":  "\"An Analysis of Students\u0027 Attitudes Toward Artificial Intelligence—ChatGPT, in Particular\", Behavioral Sciences 15(9):1179, DOI 10.3390/bs15091179 — https://pmc.ncbi.nlm.nih.gov/articles/PMC12466694/",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "discipline-differences",
+        "verdict":  null
+    },
+    {
+        "claim":  "Romanian CS students adopted generative AI for coursework early: at POLITEHNICA University of Bucharest over 40% reported using generative AI for homework and lab assignments by late 2023.",
+        "evidence":  "Survey of 181 students (mostly 2nd/3rd year) in a Functional Programming course at POLITEHNICA University of Bucharest: \u003e40% used generative AI for homework and labs; 31% became aware of code-generation tools within the prior year.",
+        "source":  "\"ChatGPT in the classroom. Exploring its potential and limitations in a Functional Programming course\", arXiv:2401.11166 — https://arxiv.org/pdf/2401.11166",
+        "year":  "2024",
+        "strength":  "moderate",
+        "relevance":  "cross-cutting",
+        "facet":  "discipline-differences",
+        "verdict":  null
+    },
+    {
+        "claim":  "Health-discipline students adopt AI later and use it heavily for information lookup and translation rather than problem-solving: about two-thirds of Chinese medical students had used ChatGPT, with very low daily use.",
+        "evidence":  "N=1,133 medical students, Sichuan Province, China (surveyed May-Nov 2024): 62.9% had used ChatGPT in their medical studies; purposes: information searching 84.4%, academic assignments 60.4%, translation 59.0%, research ideas 45.9%, polishing papers 41.4%; only 8.1% daily users; top concerns: misinformation 76.9%, plagiarism 65.4%.",
+        "source":  "\"Status and perceptions of ChatGPT utilization among medical students: a survey-based study\", BMC Medical Education — https://pmc.ncbi.nlm.nih.gov/articles/PMC12135314/",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "reading-research",
+        "facet":  "discipline-differences",
+        "verdict":  null
+    },
+    {
+        "claim":  "US law students were early experimenters relative to lawyers and overwhelmingly expect AI to transform legal practice, though this predates modern legal AI tools.",
+        "evidence":  "N=1,239 US law students (of 4,180 total respondents, surveyed March 2023): 44% had used generative AI personally or professionally (vs 36% of lawyers, 32% of consumers); 92% of law students think generative AI will have at least some impact on the practice of law; 46% see the impact as \u0027significant\u0027 or \u0027transformative\u0027 (vs 39% of lawyers).",
+        "source":  "LexisNexis Legal \u0026 Professional, \"Generative AI \u0026 the Legal Profession: 2023 Survey Report\" — https://www.lexisnexis.com/pdf/ln_generative_ai_report.pdf",
+        "year":  "2023",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "discipline-differences",
+        "verdict":  null
+    },
+    {
+        "claim":  "Research postgraduates use generative AI more frequently than undergraduates and taught postgraduates, consistent with independent research workflows benefiting most from AI support.",
+        "evidence":  "Survey of 680 students at Hong Kong University of Science and Technology (Hong Kong + Guangzhou campuses): research postgraduate students reported more frequent ChatGPT use and stronger continuance intention than undergraduate and taught-postgraduate peers; significant variation by gender, academic level, age, discipline, and geographic origin.",
+        "source":  "\"Embracing generative artificial intelligence tools in higher education: a survey study at the Hong Kong University of Science and Technology\", Journal of Asian Public Policy, DOI 10.1080/17516234.2024.2447195 — https://www.tandfonline.com/doi/full/10.1080/17516234.2024.2447195",
+        "year":  "2024",
+        "strength":  "moderate",
+        "relevance":  "cross-cutting",
+        "facet":  "discipline-differences",
+        "verdict":  null
+    },
+    {
+        "claim":  "Central/Eastern European student data exists but is sparse and skewed toward IT students; students there report high AI-application confidence with moderate anxiety, and an open dataset covering Slovakia, Poland, Czech Republic, Lithuania, and Ukraine is available for secondary analysis.",
+        "evidence":  "N=1,146 unique students (1,205 responses, 2022-2024): Slovakia 56.9%, Poland 24.8%, Czech Republic 8.8%, Lithuania 3.2%, Indonesia 5.4%, plus Turkey/France/Ukraine; 69.1% IT students, 15.6% education majors; strong negative skew on AI literacy items (high confidence), moderate AI anxiety, relatively strong career motivation; open data: Figshare DOI 10.6084/m9.figshare.29488523.v2.",
+        "source":  "\"Cross-national survey data on student attitudes toward artificial intelligence\" (Data in Brief) — https://pmc.ncbi.nlm.nih.gov/articles/PMC12545832/",
+        "year":  "2025",
+        "strength":  "moderate",
+        "relevance":  "cross-cutting",
+        "facet":  "discipline-differences",
+        "verdict":  null
+    },
+    {
+        "claim":  "Engineering-school AI adoption rose significantly between 2023 and 2024, driven by comprehension and quality goals rather than answer automation, but the student body is polarized about AI\u0027s societal impact.",
+        "evidence":  "Two survey waves at Colorado School of Mines (engineering-focused R1): n=601 (May 2023) and n=862 (Sep 2024); statistically significant rise in GenAI adoption; top uses: deepening understanding of course material, enhancing work quality, staying current with technology; bimodal distribution of students\u0027 P(doom) estimates indicates polarization.",
+        "source":  "\"Assessing Student Adoption of Generative Artificial Intelligence across Engineering Education from 2023 to 2024\", arXiv:2503.04696 — https://arxiv.org/abs/2503.04696",
+        "year":  "2025",
+        "strength":  "moderate",
+        "relevance":  "cross-cutting",
+        "facet":  "discipline-differences",
+        "verdict":  null
+    },
+    {
+        "claim":  "Retrieval practice causally beats repeated studying for long-term retention, with the advantage reversing at short delays.",
+        "evidence":  "Exp 2 (N=180 undergrads, between-subjects): at 1 week, repeated-testing group (STTT) recalled 61% of idea units vs 56% (SSST) vs 40% for repeated study (SSSS); at 5 min the pattern reversed (SSSS 83% \u003e SSST 78% \u003e STTT 71%). STTT achieved this despite reading the passage only 3.4 times vs 14.2 times for SSSS. Exp 1: restudy beat testing at 5 min (81% vs 75%, d=0.52) but testing won at 2 days and 1 week. No feedback was given, so the effect is not mere re-exposure.",
+        "source":  "Roediger \u0026 Karpicke, \u0027Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention\u0027, Psychological Science 17(3):249-255. http://psychnet.wustl.edu/memory/wp-content/uploads/2018/04/Roediger-Karpicke-2006_PsychSci.pdf",
+        "year":  "2006",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "learning-science",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "notes":  "Fetched the actual published paper (the cited psychnet.wustl.edu URL is dead — ECONNREFUSED/expired cert — so I used an identical PDF mirror at colinallen.dnsalias.org/Readings/2006_Roediger_Karpicke_PsychSci.pdf, matching Psychological Science 17(3):249-255). Every reported number matches the source verbatim: Exp 2 N=180 Washington University undergrads ages 18-24, 3x2 between-subjects (30 per cell); 1-week recall STTT 61% \u003e SSST 56% \u003e SSSS 40%; 5-min recall SSSS 83% \u003e SSST 78% \u003e STTT 71%; Table 1 reading counts STTT 3.4 vs SSSS 14.2 (SSST 10.3); Exp 1 (N=120, 2x3 mixed design, condition within-subjects) 5-min restudy 81% vs test 75%, t(39)=3.22, d=0.52, testing won at 2 days (68% vs 54%, d=0.95) and 1 week (56% vs 42%, d=0.83); tests were free-recall with no feedback and the authors explicitly rule out mere re-exposure (restudy controls re-read 100% of material). Randomized assignment supports the causal wording. One minor imprecision: the Exp 2 1-week STTT vs SSST pairwise difference (61 vs 56) was marginal, t(58)=1.21, d=0.31, not significant; the robust 1-week effects are testing conditions vs pure restudy (STTT vs SSSS d=1.26; SSST vs SSSS d=0.82), and the crossover interaction was significant, F(2,174)=18.48.",
+                        "corrected_claim":  "Retrieval practice causally beats repeated studying for long-term retention, with the advantage reversing at short delays (Roediger \u0026 Karpicke, 2006). All cited numbers are accurate; the only refinement is that in Exp 2 the 1-week STTT-vs-SSST difference (61% vs 56%) was marginal (t(58)=1.21, d=0.31), so the strong 1-week evidence is testing (STTT d=1.26; SSST d=0.82) versus repeated study (SSSS, 40%), backed by a significant condition-by-interval crossover interaction."
+                    }
+    },
+    {
+        "claim":  "Meta-analyses converge on a moderate-to-large causal testing effect: practice testing outperforms restudying by about half a standard deviation, and format/feedback moderate the effect.",
+        "evidence":  "Adesope et al. 2017 (272 effects, 188 experiments): g=0.51 vs restudying, g=0.93 vs filler/no activity; multiple-choice practice tests g=0.70 vs short-answer g=0.48. Rowland 2014 (159 effects): g=0.50 [0.42, 0.58] vs restudy, 81% of comparisons favoring retrieval; effect larger with feedback and more effortful retrieval.",
+        "source":  "Adesope, Trevisan \u0026 Sundararajan, \u0027Rethinking the Use of Tests: A Meta-Analysis of Practice Testing\u0027, Review of Educational Research 87(3). https://journals.sagepub.com/doi/abs/10.3102/0034654316689306 ; Rowland, \u0027The Effect of Testing Versus Restudy on Retention\u0027, Psychological Bulletin 140(6). https://pubmed.ncbi.nlm.nih.gov/25150680/",
+        "year":  "2017; 2014",
+        "strength":  "moderate",
+        "relevance":  "study-memory",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "Spacing study episodes reliably improves retention over massing, and the optimal gap between sessions scales up with how long the material must be retained.",
+        "evidence":  "Meta-analysis of 839 assessments in 317 experiments (184 articles): across 271 spaced-vs-massed comparisons (254 studies, 14,811 participants), spaced practice yielded 47.3% vs 36.7% correct on final recall (t=6.6, p\u003c.001); only 12 of 271 comparisons showed null/negative effects. At 8-30 day retention intervals the gap was 62.2% vs 32.8%. Optimal interstudy interval increases with retention interval: for retention under 1 min, ISI under 1 min is best; for retention of 6+ months, ISI of at least 1 month maximizes retention.",
+        "source":  "Cepeda, Pashler, Vul, Wixted \u0026 Rohrer, \u0027Distributed Practice in Verbal Recall Tasks: A Review and Quantitative Synthesis\u0027, Psychological Bulletin 132(3):354-380. https://augmentingcognition.com/assets/Cepeda2006.pdf",
+        "year":  "2006",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "learning-science",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "corrected_claim":  "In verbal recall tasks (the domain of this meta-analysis), spacing study episodes reliably improves retention over massing — 259 of 271 spaced-vs-massed comparisons favored spacing (47.3% vs 36.7% correct overall; t(540)=6.6, p\u003c.001) — and the interstudy interval producing maximal retention increases with the retention interval (ISI \u003c 1 min is best for retention \u003c 1 min; ISI of at least 1 month is best for retention of 6+ months).",
+                        "notes":  "Fetched the attributed PDF (https://augmentingcognition.com/assets/Cepeda2006.pdf) and extracted its full text locally with pypdf (27 pages). Every element of the reported evidence checks out against the primary source. (1) Citation: header reads \u0027Psychological Bulletin, 2006, Vol. 132, No. 3, 354-380, DOI 10.1037/0033-2909.132.3.354\u0027; authors Nicholas J. Cepeda, Harold Pashler, Edward Vul, John T. Wixted, Doug Rohrer — exact match. (2) Corpus: abstract states \u0027This review found 839 assessments of distributed practice in 317 experiments located in 184 articles\u0027 — exact match. (3) Spaced-vs-massed comparison: Table 1 \u0027All retention intervals\u0027 row reads massed 36.7, spaced 47.3, 271 comparisons, 254 studies, 14,811 participants, t(540)=6.6, p\u003c.001 — exact match (note the claim\u0027s \u0027t=6.6\u0027 omits df=540, trivial). (4) Robustness: text states \u0027Only 12 of 271 comparisons of massed and spaced performance showed no effect or a negative effect from spacing\u0027 — exact match. (5) 8-30 day retention bin: Table 1 shows massed 32.8 vs spaced 62.2 (6 comparisons, 6 studies, 492 participants, t(10)=2.3, p\u003c.05) — percentages match exactly; caveat that this bin rests on only 6 comparisons and is significant at p\u003c.05, not p\u003c.001 (the claim did not assert otherwise). (6) ISI scaling: General Discussion states verbatim \u0027the optimal ISI increased as retention interval increased. For instance, at retention intervals of less than 1 min, ISIs of less than 1 min maximized retention; at retention intervals of 6 months or more, ISIs of at least 1 month maximized retention\u0027 — exact match; abstract also states \u0027the ISI producing maximal retention increased as retention interval increased.\u0027 Only imprecision found: the claim generalizes to \u0027study episodes\u0027 broadly, while the meta-analysis is explicitly restricted to verbal recall tasks (paired associates, list recall, paragraph recall); also the ISI-scaling result comes partly from between-study binned comparisons plus within-study qualitative analyses, and the authors note the literature sparsely samples long retention intervals. These are scope caveats, not errors."
+                    }
+    },
+    {
+        "claim":  "Combining the two strongest techniques—spacing out retrieval practice—adds a further large benefit, but expanding (Anki-style increasing) intervals are no better than uniform intervals.",
+        "evidence":  "Meta-analysis of 29 studies: spaced retrieval practice beat massed retrieval practice, g=0.74 (39 effect sizes); expanding vs uniform spacing schedules did not differ, g=0.034 ns (54 effect sizes), though expanding schedules gained value as number of test exposures increased.",
+        "source":  "Latimier, Peyre \u0026 Ramus, \u0027A Meta-Analytic Review of the Benefit of Spacing out Retrieval Practice Episodes on Retention\u0027, Educational Psychology Review 33:959-987. https://eric.ed.gov/?id=EJ1310148 ; https://link.springer.com/article/10.1007/s10648-020-09572-8",
+        "year":  "2021",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "learning-science",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "notes":  "Fetched both cited sources: the ERIC record (EJ1310148) and the Springer full-text page (doi 10.1007/s10648-020-09572-8). Both confirm: Latimier, Peyre \u0026 Ramus, \u0027A Meta-Analytic Review of the Benefit of Spacing out Retrieval Practice Episodes on Retention\u0027, Educational Psychology Review, vol. 33 (n3), pp. 959-987, published 2021 (online Oct 7, 2020). Numbers match exactly: meta-analysis of 29 studies; spaced retrieval practice beat massed retrieval practice with g = 0.74 across 39 effect sizes (\u0027a strong benefit of spaced retrieval practice in comparison with massed retrieval practice\u0027); no significant difference between expanding and uniform spacing schedules, g = 0.034 across 54 effect sizes; and the moderator finding is quoted verbatim on the Springer page: \u0027the more learners are tested, the more beneficial the expanding schedule is compared with the uniform one.\u0027 The claim\u0027s interpretation is faithful: g = 0.74 is a large effect, and the null expanding-vs-uniform result supports \u0027no better than uniform intervals.\u0027 Two minor glosses: (a) \u0027the two strongest techniques\u0027 framing comes from the broader literature (e.g., Dunlosky et al. 2013 rating practice testing and distributed practice as high-utility), not from this paper itself; (b) \u0027Anki-style\u0027 is an approximation — the meta-analyzed studies used fixed expanding schedules, whereas Anki uses adaptive performance-based expansion, and the paper\u0027s own moderator result (expanding gains value with more test exposures, a regime resembling long-running Anki use) softens a blanket \u0027no better\u0027 conclusion. The evidence as reported already includes that caveat.",
+                        "corrected_claim":  "Spacing out retrieval practice episodes yields a large additional retention benefit over massed retrieval practice (g = 0.74, 39 effect sizes, 29 studies; Latimier, Peyre \u0026 Ramus, Educational Psychology Review 33:959-987, 2021). Fixed expanding spacing schedules were on average no better than uniform schedules (g = 0.034, ns, 54 effect sizes), though expanding schedules became relatively more beneficial as the number of test exposures increased — so the null result does not straightforwardly condemn adaptive, many-repetition systems like Anki."
+                    }
+    },
+    {
+        "claim":  "The canonical utility ranking of ten study techniques puts practice testing and distributed practice at the top and summarization, highlighting, rereading, keyword mnemonics, and imagery at the bottom.",
+        "evidence":  "Monograph review of 10 techniques: HIGH utility = practice testing, distributed practice; MODERATE = elaborative interrogation, self-explanation, interleaved practice; LOW = summarization, highlighting/underlining, keyword mnemonic, imagery for text, rereading. Low-utility techniques \u0027were difficult to implement properly and often resulted in inconsistent gains in student performance\u0027 (confirmed on publisher page).",
+        "source":  "Dunlosky, Rawson, Marsh, Nathan \u0026 Willingham, \u0027Improving Students\u0027 Learning With Effective Learning Techniques\u0027, Psychological Science in the Public Interest 14(1):4-58. https://www.psychologicalscience.org/publications/journals/pspi/learning-techniques.html",
+        "year":  "2013",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "A quantitative follow-up to Dunlosky confirms distributed practice and practice testing as the top techniques by effect size, but warns most evidence covers surface/factual outcomes.",
+        "evidence":  "Meta-analysis of 242 studies, 1,619 effects, 169,179 unique participants; overall d=0.56. Per technique: distributed practice d=0.85 (150 cases, 152,952 participants), practice testing d=0.74 (374 cases), elaborative interrogation d=0.56, imagery d=0.56, self-explanation d=0.54, mnemonics d=0.50, rereading d=0.47, interleaving d=0.47, underlining d=0.44, summarization d=0.44. Effects much larger for lower-ability students; caution urged for deeper/relational learning outcomes.",
+        "source":  "Donoghue \u0026 Hattie, \u0027A Meta-Analysis of Ten Learning Techniques\u0027, Frontiers in Education 6:581216. https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2021.581216/full",
+        "year":  "2021",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "Interleaving practice of related problem/category types yields a medium causal benefit over blocking, moderated by material similarity.",
+        "evidence":  "Meta-analysis of 59 studies, 238 effect sizes in 158 samples: overall Hedges\u0027 g=0.42 for interleaved vs blocked practice (Psychological Bulletin 145(11):1029-1052); benefits strongest when discriminating between similar categories (e.g., math problem types), weaker or negative for dissimilar materials.",
+        "source":  "Brunmair \u0026 Richter, \u0027Similarity Matters: A Meta-Analysis of Interleaved Learning and Its Moderators\u0027, Psychological Bulletin 145(11). https://www.psychologie.uni-wuerzburg.de/fileadmin/06020400/2019/Brunmair_Richter_in_press__2019_META-ANALYSIS_OF_INTERLEAVED_LEARNING.pdf",
+        "year":  "2019",
+        "strength":  "moderate",
+        "relevance":  "study-memory",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "Prompting learners to self-explain while reading or problem-solving produces a medium causal learning benefit, supporting AI-generated \u0027explain why\u0027 prompts during reading.",
+        "evidence":  "Meta-analysis of 69 effect sizes from 64 reports (mostly undergraduates, sessions under 1 hour): weighted mean g=0.55 for induced self-explanation vs comparison conditions; generating one\u0027s own explanation beat being given an explanation.",
+        "source":  "Bisra, Liu, Nesbit, Salimi \u0026 Winne, \u0027Inducing Self-Explanation: A Meta-Analysis\u0027, Educational Psychology Review 30:703-725. https://link.springer.com/article/10.1007/s10648-018-9434-x ; https://eric.ed.gov/?id=EJ1186664",
+        "year":  "2018",
+        "strength":  "moderate",
+        "relevance":  "reading-research",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "Students spontaneously default to rereading and rarely use retrieval practice, so an effective study product must actively redirect behavior, not just enable it.",
+        "evidence":  "Survey of 177 college students (free-report + forced-choice): 83.6% (148/177) listed rereading notes/textbook as a strategy and 54.8% ranked it #1; only 11% (19/177) reported practicing retrieval and 1% (2/177) ranked it #1; in the forced-choice question only 18% said they would self-test after reading a textbook chapter. Flashcards 40.1%, practice problems 42.9%.",
+        "source":  "Karpicke, Butler \u0026 Roediger, \u0027Metacognitive strategies in student learning: Do students practise retrieval when they study on their own?\u0027, Memory 17(4):471-479. https://learninglab.psych.purdue.edu/downloads/2009/2009_Karpicke_Butler_Roediger.pdf",
+        "year":  "2009",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "Students\u0027 failure is largely an intention-behavior gap: they plan to start early and use effective strategies but end up cramming with ineffective ones, so planning/routine scaffolds are the missing lever.",
+        "evidence":  "Semester-long survey (college students, Memory 25(6):784-792): students intended to begin studying earlier and use a mix of effective strategies, but actually relied on relatively ineffective strategies and massed studying the day or two before exams; per the abstract they \u0027did have a relatively accurate assessment of which strategies were less versus more effective\u0027, locating the failure in execution, not knowledge.",
+        "source":  "Blasiman, Dunlosky \u0026 Rawson, \u0027The what, how much, and when of study strategies: comparing intended versus actual study behaviour\u0027, Memory 25(6). https://pubmed.ncbi.nlm.nih.gov/27561889/",
+        "year":  "2017",
+        "strength":  "strong",
+        "relevance":  "planning",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "Concept mapping helps learning with a moderate effect, and having students construct maps beats giving them ready-made maps—an argument against AI auto-generating finished concept maps.",
+        "evidence":  "Meta-analysis of 142 independent effect sizes, 11,814 participants: overall g=0.58 (p\u003c.001); constructing concept maps g=0.72 vs studying pre-made maps g=0.43; robust across STEM and non-STEM domains.",
+        "source":  "Schroeder, Nesbit, Anguiano \u0026 Adesope, \u0027Studying and Constructing Concept Maps: A Meta-Analysis\u0027, Educational Psychology Review 30:431-455. https://eric.ed.gov/?id=EJ1179084 ; https://link.springer.com/article/10.1007/s10648-017-9403-9",
+        "year":  "2018",
+        "strength":  "strong",
+        "relevance":  "reading-research",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "Formative feedback on writing causally improves writing quality, with human/adult feedback roughly twice the effect of computer feedback; self-assessment against criteria is also effective.",
+        "evidence":  "Meta-analysis of true and quasi-experiments (grades 1-8): average weighted ES = 0.87 for adult feedback (7 studies), 0.62 for self-assessment (10 studies), 0.58 for peer feedback (8 studies), 0.38 for computer feedback (4 studies); teacher progress-monitoring alone and 6+1 Trait model showed no meaningful effect. Caveat: K-8 population, small k for computer feedback.",
+        "source":  "Graham, Hebert \u0026 Harris, \u0027Formative Assessment and Writing: A Meta-Analysis\u0027, Elementary School Journal 115(4):523-547. https://digitalcommons.unl.edu/cgi/viewcontent.cgi?article=1226\u0026context=specedfacpub",
+        "year":  "2015",
+        "strength":  "strong",
+        "relevance":  "writing",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "Automated writing-evaluation feedback shows a medium causal effect on writing performance for secondary/tertiary students, with benefits requiring sustained use rather than one-off feedback.",
+        "evidence":  "Multi-level meta-analysis of 20 studies, 84 effect sizes, 2,828 learners: overall g=0.55 on writing performance; tertiary students g=0.58; interventions longer than 2 sessions g=0.66 vs 1-2 sessions g=0.18; transfer tasks g=0.65 vs revision tasks g=0.27 ns; L2 writers g=0.72 vs L1 g=0.40.",
+        "source":  "Fleckenstein, Liebenow \u0026 Meyer, \u0027Automated feedback and writing: a multi-level meta-analysis of effects on students\u0027 performance\u0027, Frontiers in Artificial Intelligence 6:1162454. https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2023.1162454/full",
+        "year":  "2023",
+        "strength":  "strong",
+        "relevance":  "writing",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "Implementation intentions (if-then plans specifying when/where/how) have medium-to-large causal effects on goal attainment, making them the best-evidenced mechanism for a planning feature.",
+        "evidence":  "Meta-analysis of 94 independent studies: d=0.65 for goal attainment from forming implementation intentions vs goal intentions alone; d=0.77 for preventing derailment/shielding of ongoing goal striving (reported in Gollwitzer\u0027s own chapter summarizing Gollwitzer \u0026 Sheeran 2006, Advances in Experimental Social Psychology 38:69-119). Context: intentions alone translate to action only ~53% of the time (Sheeran 2002).",
+        "source":  "Gollwitzer \u0026 Sheeran, \u0027Implementation Intentions and Goal Achievement: A Meta-analysis of Effects and Processes\u0027, Adv. Exp. Soc. Psychol. 38; author chapter fetched at https://cancercontrol.cancer.gov/sites/default/files/2020-06/goal_intent_attain.pdf",
+        "year":  "2006",
+        "strength":  "strong",
+        "relevance":  "planning",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "Time management shows a moderate correlational (not causal) link with academic achievement and a stronger link with wellbeing and lower procrastination; study-habit inventories rival standardized tests as GPA predictors.",
+        "evidence":  "Aeon et al. meta-analysis: time management x academic achievement r=.262 (k=76, N=30,605); wellbeing r=.313 (k=30, N=9,905); distress r=-.222 (k=58, N=15,387); academic procrastination (reverse-coded) r=.490 (k=14, N=3,558). Credé \u0026 Kuncel 2008 (N=72,431, k=344): study motivation and study skills are the strongest non-cognitive GPA correlates, adding incremental validity over SAT and prior grades (\u0027third pillar\u0027).",
+        "source":  "Aeon, Faber \u0026 Panaccio, \u0027Does time management work? A meta-analysis\u0027, PLOS ONE 16(1):e0245066, https://pmc.ncbi.nlm.nih.gov/articles/PMC7799745/ ; Credé \u0026 Kuncel, \u0027Study Habits, Skills, and Attitudes\u0027, Perspectives on Psychological Science 3(6):425-453, https://journals.sagepub.com/doi/10.1111/j.1745-6924.2008.00089.x",
+        "year":  "2021; 2008",
+        "strength":  "strong",
+        "relevance":  "planning",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "Simple planning prompts at course start causally raise online course completion, but plans fixated on specific times predict failure—content of plans matters.",
+        "evidence":  "Natural field experiment in three HarvardX MOOCs (Yeomans \u0026 Reich, LAK\u002717): open-ended planning prompts increased course completion by 29% and certificate payment by 40%; effect largest for students enrolled in traditional schools; students whose plans focused on specific times were unlikely to complete.",
+        "source":  "Yeomans \u0026 Reich, \u0027Planning Prompts Increase and Forecast Course Completion in Massive Open Online Courses\u0027, Proceedings of LAK 2017. https://tsl.mit.edu/research/planning-prompts-increase-and-forecast-course-completion-in-massive-open-online-courses/",
+        "year":  "2017",
+        "strength":  "moderate",
+        "relevance":  "planning",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "A pedagogically engineered LLM tutor doubled learning gains vs an expert active-learning classroom in an authentic university RCT, in less time and with higher engagement—evidence that design principles (scaffolding, accuracy guardrails, self-pacing) drive AI-tutor efficacy.",
+        "evidence":  "RCT with 194 Harvard undergrads in intro physics, crossover design: AI-tutor condition post-test median 4.5 vs 3.5 in active-learning class; learning-gain effect sizes 0.63-1.3 SD depending on analysis; median time 49 min (70% finished under the 60-min class length); engagement 4.1 vs 3.6 (p\u003c.0001), motivation 3.4 vs 3.1 (p\u003c.001). Tutor (GPT-4 \u0027PS2 Pal\u0027) used expert-written step-by-step solutions to prevent hallucination, cognitive-load management, growth-mindset framing, timely feedback, self-pacing.",
+        "source":  "Kestin, Miller, Klales et al., \u0027AI tutoring outperforms in-class active learning: an RCT introducing a novel research-based design in an authentic educational setting\u0027, Scientific Reports 15:17458. https://www.nature.com/articles/s41598-025-97652-6",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "The widely cited meta-analytic claim that ChatGPT use improves learning performance by g=0.867 has been retracted and must not be used as design evidence; unstructured generative-AI help can even reduce learning.",
+        "evidence":  "Wang \u0026 Fan (2025), Humanities \u0026 Social Sciences Communications 12:621, meta-analysis of 51 studies reporting g=0.867 on learning performance, received a retraction note (nature.com s41599-026-07310-z) over discrepancies undermining validity of the analysis; separate 2025-2026 work (e.g., arXiv \u0027Faster Completion, Less Learning\u0027) finds generative AI shortcuts can cut study time while reducing knowledge built.",
+        "source":  "Retraction Note, Humanities and Social Sciences Communications. https://www.nature.com/articles/s41599-026-07310-z",
+        "year":  "2025-2026",
+        "strength":  "moderate",
+        "relevance":  "cross-cutting",
+        "facet":  "learning-science",
+        "verdict":  null
+    },
+    {
+        "claim":  "Unrestricted ChatGPT-style access during math practice boosts assisted performance but makes students perform WORSE than never having AI once access is removed; pedagogical guardrails eliminate the harm.",
+        "evidence":  "RCT, ~1,000 students (grades 9-11), Turkish high school, 2023-24: GPT Base +48% and GPT Tutor +127% on assisted practice vs control; on the subsequent unassisted exam GPT Base students scored 17% WORSE than control (statistically significant); the negative effect was \u0027essentially eradicated\u0027 in GPT Tutor (teacher-designed hints, solution embedded in prompt, instructed not to reveal answers) though no positive effect emerged.",
+        "source":  "Bastani, Bastani, Sungu, Ge, Kabakcı \u0026 Mariman, \u0027Generative AI Without Guardrails Can Harm Learning: Evidence from High School Mathematics\u0027 (PNAS 2025; working paper fetched at https://hamsabastani.github.io/education_llm.pdf; PNAS version https://www.pnas.org/doi/10.1073/pnas.2422633122)",
+        "year":  "2024/2025",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "failure-modes",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "notes":  "Fetched the actual working paper PDF from https://hamsabastani.github.io/education_llm.pdf (68 pages; extracted full text locally with pypdf) and confirmed the PNAS record via search (PNAS page itself returned 403). Every element of the claim matches the primary source. (1) Title/authors match exactly: \u0027Generative AI Without Guardrails Can Harm Learning: Evidence from High School Mathematics\u0027 by Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Ozge Kabakci, Rei Mariman. (2) Design/population: \u0027randomized controlled trial (RCT)... at a large high school in Turkey during the Fall semester of the 2023-2024 academic year... about 50 9th, 10th, and 11th-grade classes, comprising nearly 1000 students\u0027 — matches ~1,000 students, grades 9-11, Turkish high school, 2023-24. (3) Assisted performance: \u002748% improvement in grades for GPT Base and 127% for GPT Tutor\u0027 (raw ITT coefficients +0.137 and +0.361 out of 1 vs control mean 0.284). (4) Unassisted exam: \u0027students in the GPT Base arm perform statistically significantly worse than students in the control arm by 17%\u0027 (coefficient -0.054 out of 1 vs control mean 0.321) — i.e., worse than never having AI. (5) Guardrails: paper\u0027s exact wording is \u0027this negative effect is essentially eradicated in the GPT Tutor arm, though we still do not observe a positive effect\u0027; GPT Tutor arm statistically indistinguishable from control with point estimate -0.004 (an order of magnitude smaller). (6) GPT Tutor safeguards match: prompt instructs GPT-4 to provide hints without directly giving the answer, includes teacher-provided problem-specific info including one or more correct solutions, with teacher-designed hints for common mistakes. (7) PNAS publication confirmed: PNAS vol 122, issue 26, published June 25, 2025, DOI 10.1073/pnas.2422633122. A published PNAS correction (10.1073/pnas.2518204122) exists but only fixes Osbert Bastani\u0027s author affiliation — no results changed. Minor precision notes (not errors): the study ran in Fall 2023 specifically; and \u0027eliminate the harm\u0027 is a fair paraphrase of the paper\u0027s \u0027essentially eradicated\u0027 (the GPT Tutor estimate is a near-zero, statistically insignificant point estimate, not a proven exact zero), with the claim correctly noting no positive effect emerged. Sources: working paper PDF (hamsabastani.github.io/education_llm.pdf), PNAS record pnas.org/doi/10.1073/pnas.2422633122, correction at pmc.ncbi.nlm.nih.gov/articles/PMC12403119/."
+                    }
+    },
+    {
+        "claim":  "The mechanism of AI harm is crutch use (answer-copying), not AI misinformation: novices ask for answers while the safeguarded design induces substantive help-seeking.",
+        "evidence":  "Same RCT: the most common GPT Base message was \u0027What is the answer?\u0027; across all problems in session 1, 67% of first interactions in GPT Base merely repeated the question or asked for the answer vs 37% in GPT Tutor (from near-equal 56%/42% at the very first interaction — i.e., behavior diverges with exposure). GPT Base gave a fully correct answer only 51% of the time (42% logical errors, 8% arithmetic), yet GPT logical errors did NOT spill over to matched exam problems — supporting copying-without-engagement, not being misled, as the mechanism. Students spent 13% more time with GPT Tutor.",
+        "source":  "Bastani et al., \u0027Generative AI Without Guardrails Can Harm Learning\u0027 (https://hamsabastani.github.io/education_llm.pdf)",
+        "year":  "2024/2025",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "failure-modes",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "corrected_claim":  "The mechanism of harm in Bastani et al. is crutch use (answer-copying), not AI misinformation. In the RCT (~1,000 Turkish high school math students), the most common GPT Base message was \"What is the answer?\"; at the very first interaction of session 1, 56% (GPT Base) vs 42% (GPT Tutor) of messages repeated the question or asked for the answer — a 14-point gap the authors partly attribute to GPT Tutor\u0027s suggested prompts, so \"near-equal\" overstates the initial similarity — and across first interactions on all problems in session 1 this rose to 67% for Base while falling to 37% for Tutor (behavior diverges with exposure). GPT Base gave a fully correct answer only 51% of the time (42% logical, 8% arithmetic errors); the paper found \"no evidence\" that GPT Base\u0027s logical errors spilled over to matched exam problems (interaction coefficient statistically insignificant), and logical vs arithmetic errors hurt practice performance similarly — both supporting answer-copying rather than being misled. Students spent 13% more time with GPT Tutor.",
+                        "notes":  "Downloaded the actual PDF from https://hamsabastani.github.io/education_llm.pdf (68 pages) and extracted full text. Title on the PDF is exactly \"Generative AI Without Guardrails Can Harm Learning: Evidence from High School Mathematics\" by Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Ozge Kabakci, Rei Mariman (working paper 2024; published PNAS 2025) — attribution matches. Population: \"nearly a thousand high school math students\" (Turkish high school field experiment). Verified each number verbatim: (1) Section 4.1: \"the most common message used by students in the GPT Base arm—i.e., \u0027What is the answer?\u0027\" — matches. (2) Section 4.2: \"if we restrict to the very first interaction students have with our tool in the first session, 56% in the GPT Base arm and 42% in the GPT Tutor arm either repeat the question text or ask for the answer; ... when considering the first interaction across all problems in the first session, this number increases to 67% for GPT Base but decreases to 37% for GPT Tutor\" — matches 67%/37% and 56%/42% exactly, including the \"repeated the question or asked for the answer\" wording and the divergence-with-exposure interpretation (paper calls it a within-session \"learning effect\"). (3) \"GPT Base gives a correct answer only 51% of the time on average; it makes logical errors 42% of the time and arithmetic errors 8% of the time\" — matches (sums to 101% due to rounding, per the paper itself; error rates measured by re-querying GPT Base 10x per problem across 57 practice problems, not from student transcripts). (4) Spillover: \"while GPT Base\u0027s logical errors affect performance on the practice problems, we find no evidence that this effect spills over to the corresponding exam problems (i.e., \u0027GPT Base x Logical Error Rate\u0027 does not have a statistically significant effect on exam performance)\" (Table 2: -0.029, SE 0.040) — matches; paper concludes \"Both these results suggest that students are simply copying answers from GPT Base\" and Section 4 states the crutch explanation \"is the main mechanism by which GPT Base impedes student learning.\" (5) Footnote 14: \"students spend 13% more time with GPT Tutor than with GPT Base\" — matches. Two minor imprecisions, corrected in corrected_claim: (a) calling 56% vs 42% \"near-equal\" is a stretch — it is a 14-point gap, and the paper\u0027s footnote 15 attributes the initial discrepancy to GPT Tutor offering suggested prompts; (b) \"did NOT spill over\" is slightly stronger than the paper\u0027s \"no evidence that this effect spills over\" (null result, not proven absence). Substance, numbers, population, year, and interpretation all check out."
+                    }
+    },
+    {
+        "claim":  "Students cannot feel AI-induced learning loss: harmed students did not perceive worse performance, and safeguard-group students believed they did better when they objectively did not.",
+        "evidence":  "Same RCT exit surveys: GPT Base students performed worse on the exam but \u0027did not perceive that they performed worse or learned less\u0027; GPT Tutor students did not perform better than control yet \u0027perceived that they performed significantly better\u0027 — a systematic perceived-vs-actual learning mismatch.",
+        "source":  "Bastani et al., \u0027Generative AI Without Guardrails Can Harm Learning\u0027 (https://hamsabastani.github.io/education_llm.pdf)",
+        "year":  "2024/2025",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "failure-modes",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "notes":  "Fetched the primary source PDF (https://hamsabastani.github.io/education_llm.pdf, 68 pages) and extracted full text. Title/authors match the attribution: \"Generative AI Without Guardrails Can Harm Learning: Evidence from High School Mathematics\" by Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı, Rei Mariman (Univ. of Pennsylvania / Budapest British International School; published in PNAS 2025, earlier 2024 working paper titled \"Generative AI Can Harm Learning\"). Setting: RCT with ~1,000 high school students (grades 9-11) at a Turkish high school, fall 2023 semester. Key quoted sentences match verbatim (Section 3, \"Student Perception\"): \"While students in the GPT Base arm performed worse on the exam (relative to the control arm), they did not perceive that they performed worse or learned less. Similarly, while students in the GPT Tutor arm did not perform better on the exam (relative to the control arm), they perceived that they performed significantly better. This mismatch between perceived and actual learning has been observed in other settings.\" Appendix B.3 confirms the survey was administered \"At the end of each exam\" (a short 5-question exit survey; ordered probit/OLS models), so \"exit surveys\" is an accurate description, and restates: GPT Base students \"did not perceive that they learned less or performed worse\" despite performing significantly worse; GPT Tutor showed \"a significant increase in perceived exam performance... relative to the control\" despite \"no real detectable performance improvement.\" Objective numbers check out: pairwise t-tests show GPT Base vs. control exam diff -0.027 (p=0.013, i.e., actually worse) and GPT Tutor vs. control -0.005 (p=0.676, null). The abstract also states students \"do not perceive any reduction in their learning... suggesting they are not aware of how generative AI can impede their learning.\" Only imprecision: the headline \"Students cannot feel AI-induced learning loss\" universalizes (\"cannot\") what the paper reports as an observed non-perception in this single RCT\u0027s self-report measures; the paper says students \"did not perceive\" and \"are not aware,\" not that perception is impossible. The two supporting sub-claims are exact.",
+                        "corrected_claim":  "In Bastani et al.\u0027s high school RCT (~1,000 Turkish 9th-11th graders, PNAS 2025), students did not perceive AI-induced learning loss on end-of-exam surveys: GPT Base students performed significantly worse on the unassisted exam (-2.7 points, p=0.013) yet did not perceive that they performed worse or learned less, while GPT Tutor (guardrailed) students showed no exam improvement over control (p=0.676) yet perceived that they performed significantly better — a systematic perceived-vs-actual learning mismatch."
+                    }
+    },
+    {
+        "claim":  "ChatGPT support improves the immediate artifact (essay score) without improving durable learning, while reshaping self-regulated learning toward \u0027metacognitive laziness\u0027.",
+        "evidence":  "Randomized lab experiment, N=117 university students, 4 conditions (ChatGPT vs human expert vs writing-analytics tool vs no support) with multichannel trace data: ChatGPT group had the largest essay score improvement, but knowledge gain and knowledge transfer were NOT significantly different from other groups; significant differences in frequency/sequences of SRL processes; no difference in post-task intrinsic motivation. Authors conclude ChatGPT may promote dependence and trigger \u0027metacognitive laziness\u0027 — offloading evaluation/monitoring/orientation to the tool.",
+        "source":  "Fan, Tang, Le, Shen, Tan, Zhao, Shen, Li \u0026 Gašević, \u0027Beware of metacognitive laziness: Effects of generative artificial intelligence on learning motivation, processes, and performance\u0027, BJET 56(2):489-530 (arXiv version fetched: https://arxiv.org/abs/2412.09315; journal: https://bera-journals.onlinelibrary.wiley.com/doi/epdf/10.1111/bjet.13544)",
+        "year":  "2024/2025",
+        "strength":  "strong",
+        "relevance":  "writing",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "Frequent AI tool use correlates strongly and negatively with critical thinking, mediated by cognitive offloading, with youngest users (17-25) most affected and education level buffering the effect.",
+        "evidence":  "N=666 UK participants, mixed methods: AI use vs critical thinking r = -0.68 (p \u003c 0.001); AI use vs cognitive offloading r = +0.72; offloading vs critical thinking r = -0.75; random-forest R² = 0.37 with diminishing-returns threshold; 17-25 year olds showed highest AI dependence and lowest CT scores; higher educational attainment mitigated the negative association. Caveat: cross-sectional/correlational, self-report; paper received a minor correction Sept 2025.",
+        "source":  "Gerlich, \u0027AI Tools in Society: Impacts on Cognitive Offloading and the Future of Critical Thinking\u0027, Societies 15(1):6 (https://www.mdpi.com/2075-4698/15/1/6; stats confirmed via https://phys.org/news/2025-01-ai-linked-eroding-critical-skills.html — MDPI primary returned 403)",
+        "year":  "2025",
+        "strength":  "moderate",
+        "relevance":  "cross-cutting",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "LLM-assisted essay writing produces measurable \u0027cognitive debt\u0027: weakest neural connectivity, inability to quote one\u0027s own just-written essay, and lowest sense of ownership.",
+        "evidence":  "N=54 (sessions 1-3), 18 in session 4, three groups (LLM / search engine / brain-only) over 4 months with EEG: brain-only showed strongest, most distributed connectivity, LLM weakest; LLM users \u0027struggled to accurately quote their own work\u0027 minutes after writing; self-reported essay ownership lowest in LLM group; in the crossover, LLM-to-Brain participants showed reduced alpha/beta connectivity (under-engagement) while Brain-to-LLM showed higher recall — order of exposure matters. Preprint; small N; has published methodological commentary (arXiv:2601.00856).",
+        "source":  "Kosmyna et al. (MIT Media Lab), \u0027Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task\u0027 (https://arxiv.org/abs/2506.08872)",
+        "year":  "2025",
+        "strength":  "moderate",
+        "relevance":  "writing",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "ChatGPT lowers the felt mental effort of research tasks but degrades reasoning quality versus ordinary web search — cognitive ease is the fluency trap, not a benefit.",
+        "evidence":  "N=91 university students randomized to ChatGPT-3.5 vs Google to research nanoparticles in sunscreen: LLM users reported significantly lower cognitive load yet produced lower-quality reasoning, recommendations and argumentation; mechanism attributed to receiving direct plain-language answers instead of having to evaluate and integrate multiple sources.",
+        "source":  "Stadler, Bannert \u0026 Sailer, \u0027Cognitive ease at a cost: LLMs reduce mental effort but compromise depth in student scientific inquiry\u0027, Computers in Human Behavior 160:108386 (https://dl.acm.org/doi/10.1016/j.chb.2024.108386)",
+        "year":  "2024",
+        "strength":  "moderate",
+        "relevance":  "reading-research",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "Receiving explanations via a chatbot inflates the illusion of explanatory depth: students think they understand more but explain worse than students who read the identical text directly.",
+        "evidence":  "N=102 university students, 4 questions; the ChatGPT-explanation group showed the largest gap between predicted understanding and post-hoc self-evaluation AND produced less accurate explanations than controls who received the same texts without ChatGPT mediation.",
+        "source":  "\u0027ChatGPT and the Illusion of Explanatory Depth\u0027 (eScholarship/CogSci: https://escholarship.org/uc/item/2m38s5xm); converging preprint: \u0027Overconfidence without Understanding: AI Explanations Increase the Illusion of Explanatory Depth\u0027 (https://doi.org/10.31234/osf.io/8psgf)",
+        "year":  "2024/2025",
+        "strength":  "weak",
+        "relevance":  "reading-research",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "Confidence calibration is the behavioral hinge of over-reliance: trust in the AI predicts less critical thinking, while task self-confidence predicts more.",
+        "evidence":  "CHI 2025 survey of 319 knowledge workers reporting 936 first-hand GenAI task examples: in regression models, higher confidence in GenAI is associated with less enacted critical thinking; higher task-specific self-confidence with more; GenAI shifts critical-thinking work toward verification of outputs, response integration and \u0027task stewardship\u0027. (Self-report, workers not students, but directly models the reliance mechanism.)",
+        "source":  "Lee, Sarkar, Tankelevitch, Drosos, Rintel, Banks \u0026 Wilson, \u0027The Impact of Generative AI on Critical Thinking\u0027, CHI 2025 (PDF fetched: https://www.microsoft.com/en-us/research/wp-content/uploads/2025/01/lee_2025_ai_critical_thinking_survey.pdf)",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "The same tool helps or harms depending on interaction mode: tutor-style conversing/asking-for-explanations improves learning while solution-generation use impairs it, and tiny UI frictions (disabling copy-paste) shift users away from the harmful mode.",
+        "evidence":  "Three studies (observational university coding courses + 2 experiments; code matched to 50 ChatGPT solutions via Damerau-Levenshtein similarity): personal-tutor use → learning gains; excessive exercise-solving delegation → impaired learning, worst in students without prior LLM experience; removing copy-and-paste made students less likely to request solutions; self-perceived benefits of LLM use exceeded actual benefits (ability overestimation).",
+        "source":  "Lehmann, Cornelius \u0026 Sting, \u0027AI Meets the Classroom: When Do Large Language Models Harm Learning?\u0027 (https://arxiv.org/abs/2409.09047; SSRN 4941259)",
+        "year":  "2024/2025",
+        "strength":  "moderate",
+        "relevance":  "study-memory",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "Novices fail at prompting in characteristic, trainable ways: opportunistic rather than systematic iteration, overgeneralizing model incapability from a single failed attempt, and importing human-to-human instructional expectations.",
+        "evidence":  "CHI 2023 design-probe study, N=10 non-AI-experts building a chatbot with BotDesigner: participants \u0027explored prompt designs opportunistically, not systematically\u0027; \u0027made assumptions about the kinds of instructions LLMs respond well to after just one attempt... overgeneralizing from a single (typically negative) example\u0027; very few tried rephrasing, instead inferring the bot was incapable; every participant hit the black-box \u0027why did it do that?\u0027 wall.",
+        "source":  "Zamfirescu-Pereira, Wong, Hartmann \u0026 Yang, \u0027Why Johnny Can\u0027t Prompt: How Non-AI Experts Try (and Fail) to Design LLM Prompts\u0027, CHI 2023 (PDF fetched: https://people.eecs.berkeley.edu/~bjoern/papers/zamfirescu-johnny-chi2023.pdf)",
+        "year":  "2023",
+        "strength":  "moderate",
+        "relevance":  "cross-cutting",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "Prompt quality is a measurable skill gap tied to AI literacy: higher-quality prompts produce higher-quality output, and structured-reasoning/constraint-specifying prompts yield more accurate answers.",
+        "evidence":  "Knoth, Tolzin, Janson \u0026 Leimeister (Computers and Education: AI, 2024) link students\u0027 AI literacy to prompt-engineering strategies and show prompt quality predicts LLM output quality; a 2026 scoping review positions prompt engineering as the bridge to student AI literacy, noting accuracy is higher when prompts require structured reasoning and specify constraints; BERJ 2026 mixed-methods intervention (Woo et al.) shows prompt-engineering training raises undergraduates\u0027 AI self-efficacy and prompting ability.",
+        "source":  "Knoth et al., \u0027AI literacy and its implications for prompt engineering strategies\u0027 (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4805867); scoping review https://www.sciencedirect.com/science/article/pii/S2666920X26000433; Woo et al. https://bera-journals.onlinelibrary.wiley.com/doi/abs/10.1002/berj.70087",
+        "year":  "2024-2026",
+        "strength":  "weak",
+        "relevance":  "cross-cutting",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "Proven AI academic-misconduct cases are rising steeply but represent a detection-limited tip of the iceberg, while heavy AI-generated submissions are growing.",
+        "evidence":  "Guardian FOI across 131 UK universities: ~7,000 proven AI-cheating cases in 2023-24 = 5.1 per 1,000 students (up from 1.6/1,000 in 2022-23; projected ~7.5/1,000 for 2024-25); traditional plagiarism fell 19 → 15.2 per 1,000; in a University of Reading test 94% of AI-written submissions went undetected. Turnitin (March 2024, 200M+ papers): ~11% had ≥20% AI writing, ~3% had ≥80%.",
+        "source":  "Guardian FOI investigation June 2025 (coverage: https://eandt.theiet.org/2025/06/16/7000-cases-ai-cheating-among-university-students-just-tip-iceberg); Turnitin anniversary release (https://www.turnitin.com/press/turnitin-first-anniversary-ai-writing-detector)",
+        "year":  "2025",
+        "strength":  "moderate",
+        "relevance":  "writing",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "Student AI use is now near-universal and concentrated exactly in the risk zones (explaining, summarizing, drafting), while a third of entrants arrive with no AI experience and institutional skill support lags.",
+        "evidence":  "HEPI/Kortext survey, N=1,054 UK full-time undergraduates (2026): 95% use AI; 94% use GenAI for assessed work (88% in 2025, 53% in 2024); ~two-thirds use AI to explain concepts, half to summarise articles, ~40% for research ideas/structuring; text generation fell 64%→56% (2025→2026); 65% say assessment changed significantly; a third arrive in HE with no prior AI experience; 68% say AI skills are essential but only 48% feel staff help develop them; minority report skill erosion, fairness and false-accusation anxiety; 2025 wave: 18% pasted AI text directly into work, 53% deterred by cheating accusations, 51% by hallucinations.",
+        "source":  "HEPI Report 199, \u0027Student Generative AI Survey 2026\u0027 (PDF fetched: https://www.hepi.ac.uk/wp-content/uploads/2026/03/HEPI-Report-199-Gen-AI-Survey-2026.pdf); 2025 wave: https://www.hepi.ac.uk/wp-content/uploads/2025/02/HEPI-Kortext-Student-Generative-AI-Survey-2025.pdf",
+        "year":  "2025/2026",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "A deliberately scaffolded AI tutor can OUTPERFORM even best-practice active-learning classes — design features, not the base model, drive the benefit.",
+        "evidence":  "Crossover RCT, N=194 Harvard intro-physics students: AI-tutored students showed learning gains over double the in-class active-learning condition (0.63 SD by linear regression; 0.73-1.3 SD quantile estimates; p\u003c10^-8), in less time (median 49 min vs 60), with higher engagement (4.1 vs 3.6, p\u003c0.0001) and motivation (3.4 vs 3.1, p\u003c0.001). Design: pre-written expert step-by-step solutions embedded in prompts (accuracy), platform-enforced sequential scaffolding, instructions not to give away answers, cognitive-load management, growth-mindset framing, self-pacing, timely targeted feedback.",
+        "source":  "Kestin, Miller, Klales, Milbourne \u0026 Ponti, \u0027AI tutoring outperforms in-class active learning\u0027, Scientific Reports (fetched: https://www.nature.com/articles/s41598-025-97652-6)",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "Delaying AI help until after an independent attempt (\u0027generate first, then AI\u0027) yields better work and more critical engagement than on-demand AI.",
+        "evidence":  "N=97 graduate students, 3 conditions (no AI / on-demand AI / deferred AI where students wrote hints first then revised with AI): deferred assistance produced the highest-quality hints, helped students identify mistakes they missed both alone and with immediate AI, and sustained productive cognitive effort where on-demand availability diminished engagement.",
+        "source":  "\u0027Hint-Writing with Deferred AI Assistance: Fostering Critical Engagement in Data Science Education\u0027 (https://arxiv.org/abs/2604.19931)",
+        "year":  "2026",
+        "strength":  "moderate",
+        "relevance":  "study-memory",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "Meta-analytic evidence shows ChatGPT helps learning on average (moderate effect), but the field\u0027s headline meta-analysis was retracted — synthesis claims in this space need provenance checks.",
+        "evidence":  "Meta-analysis of 35 experimental/quasi-experimental studies, 134 effect sizes, N=4,193 (2022-2024): overall g = 0.670 [95% CI 0.495-0.844]; effects grow with duration (\u003c1 month g=0.456; \u003e3 months g=1.033); only 3/35 studies negative; one study reported 25.1% decreased learning efficiency under complete GenAI reliance. Separately, Wang \u0026 Fan\u0027s widely cited meta-analysis (g=0.867 performance, g=0.457 higher-order thinking, HSSC 12:621) was RETRACTED in Dec 2025.",
+        "source":  "\u0027ChatGPT\u0027s impact on student learning outcomes: a meta-analysis of 35 experimental studies\u0027, Humanities \u0026 Social Sciences Communications (fetched: https://www.nature.com/articles/s41599-026-07019-z); retraction note: https://www.nature.com/articles/s41599-026-07310-z",
+        "year":  "2026",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "In the wild, students delegate the HIGHER-order cognitive work to AI (inverted Bloom\u0027s taxonomy), and nearly half of student conversations are direct answer/output seeking with minimal engagement.",
+        "evidence":  "Anthropic analysis of 574,740 anonymized student conversations on Claude.ai: Creating 39.8% and Analyzing 30.2% of delegated cognitive operations vs Understanding 10.0% and Remembering 1.8%; four interaction patterns each ~23-29%, with ~47% \u0027Direct\u0027 (answer/output seeking); observed integrity-adjacent uses include requesting direct test answers and rewriting text to evade plagiarism detection; CS massively overrepresented (38.6% of conversations vs 5.4% of US bachelor\u0027s degrees). Motivated Anthropic\u0027s Socratic \u0027Learning Mode\u0027.",
+        "source":  "Anthropic Education Report: How University Students Use Claude (fetched: https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude)",
+        "year":  "2025",
+        "strength":  "moderate",
+        "relevance":  "cross-cutting",
+        "facet":  "failure-modes",
+        "verdict":  null
+    },
+    {
+        "claim":  "AI study-tool adoption among students is near-saturation as of 2026, making the market contest about workflow depth rather than access.",
+        "evidence":  "HEPI 2026 (N=1,054 UK full-time undergrads, fielded Dec 2025): 95% use AI in at least one way, 94% use genAI for assessed work, 12% submit AI-generated text directly (up from 8% in 2025, 3% in 2024); only 38% say institutions provide AI tools. Pew (N=1,458 US teens 13-17, Sept-Oct 2025): 54% used chatbots for schoolwork; 26% used ChatGPT for schoolwork (up from 13% in 2023).",
+        "source":  "HEPI Report 199 \u0027Student Generative AI Survey 2026\u0027 (https://www.hepi.ac.uk/reports/student-generative-ai-survey-2026/) [fetched]; Pew Research \u0027How Teens Use and View AI\u0027 (https://www.pewresearch.org/internet/2026/02/24/how-teens-use-and-view-ai/) [fetched]",
+        "year":  "2026",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "competitive-landscape",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "corrected_claim":  "AI study-tool adoption is near-saturation among UK full-time undergraduates as of 2026 (HEPI Report 199, N=1,054, fielded Dec 2025: 95% use AI in at least one way, 94% use genAI for assessed work, 12% submit AI-generated text directly, up from 8% in 2025 and 3% in 2024; only 38% get institution-provided tools). Among US teens 13-17, adoption is majority but NOT near-saturation (Pew, Feb 2026, N=1,458, fielded Sept 25-Oct 9, 2025: 54% have used chatbots for schoolwork). The \u002726% used ChatGPT for schoolwork, up from 13% in 2023\u0027 statistic is from a DIFFERENT Pew survey (fielded Sept-Oct 2024, published Jan 15, 2025), not the Feb 2026 report. The \u0027workflow depth rather than access\u0027 framing is supported for higher ed, but should be scoped to university students rather than students generally.",
+                        "notes":  "Fetched both attributed URLs directly. HEPI Report 199 (hepi.ac.uk/reports/student-generative-ai-survey-2026/): all reported numbers match exactly - N=1,054 UK full-time undergraduates, fielded December 2025 by Savanta; 95% use AI in at least one way; 94% use genAI to help with assessed work; 12% submit AI-generated text directly (8% in 2025, 3% in 2024); 38% say institutions provide AI tools. Pew \u0027How Teens Use and View AI\u0027 (pewresearch.org/internet/2026/02/24/...): title, date (Feb 24, 2026), N=1,458 US teens 13-17, fieldwork Sept 25-Oct 9 2025, and 54% chatbots-for-schoolwork all match. Two problems found: (1) the 26%-ChatGPT/13%-in-2023 figure does not appear in the Feb 2026 Pew report; it is from Pew\u0027s Jan 15, 2025 short read based on a Sept-Oct 2024 survey - a source misattribution, though the numbers themselves are accurate; (2) the interpretation \u0027near-saturation among students\u0027 overgeneralizes: it holds for UK undergrads (95%) but the claim\u0027s own Pew evidence shows only 54% of US teens have used chatbots for schoolwork. Claim is directionally right for the higher-ed market but imprecise in population scope and in one attribution."
+                    }
+    },
+    {
+        "claim":  "Google NotebookLM is the dominant reading-research tool and has expanded into study-memory (flashcards/quizzes), with a generous free tier and pricing tied to Google AI subscriptions.",
+        "evidence":  "Features: source-grounded chat, Audio Overviews (Sept 2024), Video Overviews (2025), flashcards/quizzes/reports (Nov 2025), runs on Gemini 3. Pricing 2026: free tier (100 notebooks, 50 sources/notebook, 50 queries/day), Plus $7.99/mo, Pro $19.99/mo ($9.99 US student rate), Ultra $99.99-200/mo. Adoption: ~10M total users by Nov 2024, mobile app ~8M MAU after May 2025 launch, reported 17M+ MAU platform-wide, 120% QoQ MAU growth Q4 2024, Similarweb 48M+ monthly visits.",
+        "source":  "Wikipedia NotebookLM (https://en.wikipedia.org/wiki/NotebookLM) [fetched]; felloai.com/notebooklm-pricing; zipdo.co/notebooklm-statistics; notebooklm.google/plans",
+        "year":  "2025-2026",
+        "strength":  "moderate",
+        "relevance":  "reading-research",
+        "facet":  "competitive-landscape",
+        "verdict":  null
+    },
+    {
+        "claim":  "NotebookLM\u0027s documented weaknesses are exactly the persistence layer: no cross-notebook memory or synthesis, shaky citations, and shallow analysis — plus outage-dependency complaints from students.",
+        "evidence":  "Reviews and an ACM DIS 2025 education study report: no cross-notebook synthesis, long-term source management, or cross-project memory; inline citations described as \u0027guesses\u0027; ~13% hallucination rate in one test (vs claims it \u0027never hallucinates\u0027); ACM study found it \u0027mostly regurgitates the exact language of source documents\u0027 without interpretive depth; students tweeted \u0027I\u0027ll fail my exam at this rate\u0027 during outages, showing critical dependency.",
+        "source":  "ACM \u0027Thinking Smarter, not Harder? Google NotebookLM\u0027s Misalignment Problem in Education\u0027 (https://dl.acm.org/doi/10.1145/3711670.3764628); xda-developers.com/notebooklm-limitations; atlasworkspace.ai/blog/notebooklm-limitations",
+        "year":  "2025-2026",
+        "strength":  "moderate",
+        "relevance":  "reading-research",
+        "facet":  "competitive-landscape",
+        "verdict":  null
+    },
+    {
+        "claim":  "OpenAI ChatGPT Study Mode (launched July 29, 2025) is a Socratic tutoring toggle available on all tiers, but its core weakness is that it is trivially bypassable and built on system instructions rather than a trained model.",
+        "evidence":  "Available on Free/Plus/Pro/Team and ChatGPT Edu; built with pedagogy experts from 40+ institutions; OpenAI says 1 in 3 college-age people already use ChatGPT. Criticisms: students \u0027can simply switch off study mode and get to the answer more quickly, with currently no guardrails against that\u0027 (per OpenAI); implemented via custom system instructions, not model training. Companion features: ChatGPT scheduled Tasks capped at 10 active tasks (Business/Edu; 15 Pro/Enterprise), beta, no file uploads or GPT integration; free ChatGPT for ~150,000 US teachers through June 2027.",
+        "source":  "OpenAI (https://openai.com/index/chatgpt-study-mode/, 403-blocked, corroborated via TechCrunch https://techcrunch.com/2025/07/29/openai-launches-study-mode-in-chatgpt/, EdWeek, MIT Technology Review, CNBC); OpenAI Help Center Scheduled Tasks (https://help.openai.com/en/articles/10291617)",
+        "year":  "2025",
+        "strength":  "moderate",
+        "relevance":  "study-memory",
+        "facet":  "competitive-landscape",
+        "verdict":  null
+    },
+    {
+        "claim":  "Anthropic Claude for Education (April 2, 2025) is positioned on institutional depth — campus-wide deployments, LMS/lecture integrations via MCP, and Learning Mode now free for all users including Claude Code.",
+        "evidence":  "Launch partners: Northeastern (50,000 students/faculty/staff across 13 campuses), LSE and Champlain campus-wide; July 9, 2025 update added Canvas LTI support, Panopto lecture-transcript MCP server, Wiley peer-reviewed content MCP integration; student conversations private by default and excluded from training; Aug 2025: Learning Mode (Socratic) extended to all Claude.ai users and Claude Code gained \u0027Explanatory\u0027 and \u0027Learning\u0027 output styles that developers can customize; later partners include Syracuse (Sept 2025), CodePath/Howard.",
+        "source":  "Anthropic (https://www.anthropic.com/news/introducing-claude-for-education) [fetched]; (https://www.anthropic.com/news/advancing-claude-for-education) [fetched]; Engadget/VentureBeat on Aug 2025 learning-mode rollout",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "cross-cutting",
+        "facet":  "competitive-landscape",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "corrected_claim":  "Anthropic Claude for Education (launched April 2, 2025) is positioned on institutional depth: campus-wide deployments (Northeastern — 50,000 students/faculty/staff across 13 global campuses; LSE; Champlain College), and a July 9, 2025 update adding Canvas LTI support plus Panopto lecture-transcript and Wiley peer-reviewed-content integrations via pre-built MCP servers, with student conversations private by default and excluded from AI training by default. In mid-August 2025, Learning Mode (Socratic) was made available to all Claude.ai users (not just Education customers), and Claude Code — a paid product, not free — gained \u0027Explanatory\u0027 and \u0027Learning\u0027 output styles that developers can customize via /output-styles. Later partners include Syracuse University (announced Sept 22, 2025, campus-wide) and CodePath (20,000+ students), whose curriculum includes Howard University\u0027s redesigned Intro to AI course.",
+                        "notes":  "Fetched both primary Anthropic sources directly. (1) introducing-claude-for-education: dated April 2, 2025; confirms Northeastern \"50,000 students, faculty, and staff across 13 global campuses,\" LSE sharing Claude across its student body, Champlain adopting campus-wide, and Learning mode — exact match on number, year, population. (2) advancing-claude-for-education: dated July 9, 2025; confirms Canvas LTI, and \"Students and educators will be able to connect Wiley and Panopto to Claude using pre-built MCP servers,\" plus \"Conversations are private by default and are excluded from AI training by default\" — exact match. (3) Aug 2025 rollout confirmed by Engadget (\"Anthropic brings Claude\u0027s learning mode to regular users and devs\") and VentureBeat (Aug 14-15, 2025): Learning style in Claude.ai style dropdown for all users; Claude Code gained Explanatory and Learning output styles (Learning inserts #TODO markers), accessible/customizable via /output-styles. (4) Syracuse: announced Sept 22, 2025 campus-wide (news.syr.edu, EdScoop), access starting Sept 24 — matches \"Sept 2025.\" (5) CodePath partnership confirmed on anthropic.com/news/anthropic-codepath-partnership (20,000+ students at community colleges, state schools, HBCUs), including Howard University\u0027s redesigned Intro to AI course with CodePath and Thurgood Marshall College Fund. Only imprecision: \"Learning Mode now free for all users including Claude Code\" — sources say Learning Mode became available to ALL Claude.ai users (including free tier), but Claude Code is a paid product that gained the output-style feature; \"free\" is slightly loose wording, not a factual error about availability. All numbers, dates, populations, and interpretation otherwise match the primary sources."
+                    }
+    },
+    {
+        "claim":  "Anthropic\u0027s own usage data shows ~47% of student Claude conversations are direct answer/content-seeking with minimal engagement, and \u0027Remembering\u0027-level (study-memory) use is nearly absent — the biggest unserved pedagogical job.",
+        "evidence":  "Anthropic Education Report (Apr 8, 2025; 574,740 academic conversations filtered from ~1M): interaction patterns each 23-29%; ~47% direct interactions seeking answers with minimal engagement; Bloom\u0027s distribution of Claude\u0027s function: Creating 39.8%, Analyzing 30.2%, Applying 10.9%, Understanding 10.0%, Remembering 1.8%; CS students 36.8% of conversations vs 5.4% of US degrees; report flags \u0027offloading critical cognitive tasks\u0027 risk.",
+        "source":  "Anthropic Education Report: How University Students Use Claude (https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude) [fetched]",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "competitive-landscape",
+        "verdict":  {
+                        "verified":  true,
+                        "confidence":  "high",
+                        "notes":  "Fetched the primary source (https://www.anthropic.com/news/anthropic-education-report-how-university-students-use-claude) twice with targeted prompts, plus a corroborating web search. Confirmed verbatim: (1) published April 8, 2025; (2) 574,740 academic conversations filtered from ~1M anonymized conversations from higher-ed email accounts; (3) four interaction patterns (Direct/Collaborative x Problem Solving/Output Creation) each 23-29%; (4) exact sentence: \u0027Nearly half (~47%) of student-AI conversations were Direct—that is, seeking answers or content with minimal engagement\u0027; (5) Bloom\u0027s distribution of Claude\u0027s functions: Creating 39.8%, Analyzing 30.2%, Applying 10.9%, Understanding 10.0%, Remembering 1.8%; (6) offloading language confirmed: \u0027This raises questions about ensuring students don\u0027t offload critical cognitive tasks to AI systems.\u0027 CS figure quirk: the report internally contains BOTH 36.8% (\u002736.8% of students\u0027 conversations\u0027, key findings) AND 38.6% (\u002738.6% of conversations on Claude.ai\u0027, discipline section) against 5.4% of US bachelor\u0027s degrees — so the claimed 36.8% matches the source\u0027s key-findings bullet, though 38.6% is more widely cited. Caveats on interpretation: (a) the 1.8% Remembering figure describes Claude\u0027s output function per Bloom\u0027s taxonomy, not students\u0027 cognitive activity; the report treats dominance of higher-order functions (Creating/Analyzing) as the offloading concern — it does NOT frame low Remembering use as \u0027the biggest unserved pedagogical job\u0027; that framing is the claimant\u0027s editorial inference, not a finding of the report. (b) Population is Claude.ai Free/Pro accounts tied to higher-ed email addresses, consistent with \u0027student Claude conversations\u0027. All numbers, year, and population check out; only the \u0027biggest unserved pedagogical job\u0027 conclusion is unsupported by the source itself.",
+                        "corrected_claim":  "Anthropic\u0027s Education Report (Apr 8, 2025; 574,740 academic conversations filtered from ~1M) found ~47% of student Claude conversations were \u0027Direct\u0027 — seeking answers or content with minimal engagement — and that among Claude\u0027s functions mapped to Bloom\u0027s taxonomy, \u0027Remembering\u0027 was nearly absent at 1.8% (vs Creating 39.8%, Analyzing 30.2%, Applying 10.9%, Understanding 10.0%). The report flags concerns about students offloading critical cognitive tasks to AI; however, calling Remembering \u0027the biggest unserved pedagogical job\u0027 is the claimant\u0027s own interpretation, not a conclusion stated in the report. Note the report internally cites CS students as both 36.8% and 38.6% of conversations vs 5.4% of US degrees."
+                    }
+    },
+    {
+        "claim":  "Quizlet retired Q-Chat (the first ChatGPT-based consumer tutor) in June 2025 and pivoted to paywalled AI features, leaving a trust deficit with its free-tier base.",
+        "evidence":  "Q-Chat launched Feb/Mar 2023 on OpenAI\u0027s API, \u0027no longer available\u0027 as of June 2025 per Quizlet\u0027s own blog notice; Quizlet Plus $7.99/mo or $35.99/yr gates Magic Notes and AI features; testing found ~13% of Q-Chat responses inaccurate/unhelpful; recurring complaints: trial auto-renewal charges and moving formerly free features behind Plus.",
+        "source":  "Quizlet blog (https://quizlet.com/blog/meet-q-chat, 403-blocked, discontinuation corroborated by multiple 2025-26 reviews incl. myengineeringbuddy.com and studydrome.com)",
+        "year":  "2025",
+        "strength":  "moderate",
+        "relevance":  "study-memory",
+        "facet":  "competitive-landscape",
+        "verdict":  null
+    },
+    {
+        "claim":  "Khanmigo is cheap and teacher-free but K-12-anchored, making it weak for the university segment.",
+        "evidence":  "Pricing confirmed on khanmigo.ai: free for teachers, $4/mo or $44/yr for learners/parents, district pricing custom; adoption: 795 districts, ~770,000 US students, ~2M users globally by end of 2024-25 school year, driven by May 2024 Microsoft Azure donation making teacher tier free; content scope is Khan Academy\u0027s K-12/early-college curriculum with no dedicated higher-ed offering.",
+        "source":  "Khanmigo pricing page (https://www.khanmigo.ai/pricing) [fetched]; buildmvpfast.com Khanmigo case study; khanacademy.org/schools/pricing",
+        "year":  "2026",
+        "strength":  "strong",
+        "relevance":  "planning",
+        "facet":  "competitive-landscape",
+        "verdict":  null
+    },
+    {
+        "claim":  "StudyFetch is the best-funded pure-play \u0027lecture-to-study-materials\u0027 startup, with College Board money and 6M+ students, but suffers the category-wide billing-practices complaint.",
+        "evidence":  "PR (Jan 5, 2026): 6M+ students used StudyFetch in 2025; $11.5M Series A June 2025 led by Owl Ventures with College Board participating; features: flashcards, quizzes, summaries, study plans, AI Tutor (Spark.E), workflows \u0027designed to discourage final-answer generation\u0027; pricing ~$4.99-7.99/mo annual; Trustpilot 4.2 (285 reviews) but auto-renewal/cancellation is \u0027the single most common complaint across every review platform\u0027.",
+        "source":  "PR Newswire (https://www.prnewswire.com/news-releases/studyfetch-helps-millions-of-students-learn-responsibly-with-ai-in-2025-302651999.html) [fetched]; dupple.com/tools/study-fetch; trustpilot.com/review/studyfetch.com",
+        "year":  "2025-2026",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "competitive-landscape",
+        "verdict":  null
+    },
+    {
+        "claim":  "Turbo AI (ex-Turbolearn) self-reports 5M+ active students for note/flashcard/quiz/podcast generation; Mindgrasp is the cautionary tale of the category with a 2.0 Trustpilot from trial-billing complaints.",
+        "evidence":  "Turbo.ai homepage (fetched): \u00275M+ active students\u0027, 15M+ notes generated, converts PDFs/videos/audio/live lectures into notes, flashcards, quizzes, podcasts; student pricing reported at $14.99/mo or $59.99/yr (Student Ultra). Mindgrasp: $5.99-14.99/mo, 4-day card-required trial, 2.0/5 Trustpilot (US) driven by unexpected charges and cancellation difficulty.",
+        "source":  "Turbo AI homepage (https://www.turbo.ai/) [fetched, self-reported figures]; courseplatformsreview.com/tools/turbolearn-ai; whisprinote.com Mindgrasp review",
+        "year":  "2026",
+        "strength":  "moderate",
+        "relevance":  "study-memory",
+        "facet":  "competitive-landscape",
+        "verdict":  null
+    },
+    {
+        "claim":  "Anki remains the evidence-backed gold standard for study-memory (spaced repetition) but its UX burden is severe, and the 2025-26 AI-addon wave (AnkiBrain, Smart Notes) still requires bring-your-own API keys — a large integration gap.",
+        "evidence":  "UCF College of Medicine study (N=89, 74% response, 2024-25 first-years): 94% use Anki, 97.6% rely on pre-made decks, 62.6% call it a key strategy, 87.8% credit it for success — yet 82.1% find it overwhelming, 67.9% report anxiety, 34.5% lost sleep; cohort studies show Anki users score 6.2-12.9% higher on exams. AI addons (AnkiBrain, Smart Notes supporting Claude/GPT/DeepSeek) auto-generate cards from PDFs but need user-supplied OpenAI/Anthropic API keys.",
+        "source":  "PMC \u0027Utilization Patterns and Perceptions of... Anki Among First-Year Medical Students\u0027 (https://pmc.ncbi.nlm.nih.gov/articles/PMC12662189/) [fetched]; github.com/piazzatron/anki-smart-notes; ankiweb.net/shared/info/1531888719",
+        "year":  "2025",
+        "strength":  "strong",
+        "relevance":  "study-memory",
+        "facet":  "competitive-landscape",
+        "verdict":  null
+    },
+    {
+        "claim":  "Notion AI moved out of students\u0027 price range in 2025: AI was consolidated into the $20/user/mo Business tier, while the free student Plus plan gets only ~20 one-time trial AI responses.",
+        "evidence":  "2025 pricing change eliminated the $10/member AI add-on; full AI (Ask Notion, AI Agents, meeting transcription) requires Business at $20/user/mo; Free/Plus tiers get ~20 one-time trial responses; custom agents metered at $10 per 1,000 monthly credits (May 2026); students/educators get Plus free but without AI — so Notion serves planning/writing organization, not AI tutoring, for students.",
+        "source":  "notion.com/pricing; userjot.com/blog/notion-pricing-2025-plans-ai-costs-explained; felloai.com/notion-ai-pricing",
+        "year":  "2025-2026",
+        "strength":  "moderate",
+        "relevance":  "planning",
+        "facet":  "competitive-landscape",
+        "verdict":  null
+    },
+    {
+        "claim":  "The big-platform student land-grab is cooling: Google\u0027s free 12-month AI Pro student offer expired (final US redemption Apr 30, 2026, now $9.99/mo student rate), while Perplexity still gives .edu students a free Pro year and newcomer Thea claims 1M+ learners.",
+        "evidence":  "Google student program launched Apr 2025 in US, expanded to 150+ countries, free-year redemption closed Mar 11/Apr 30 2026, replaced by 50%-off $9.99/mo student rate; Perplexity Pro free for one year with verified .edu; Thea (founded 2023) reports 1M+ learners in 2026; NotesXP and other all-in-one study apps proliferating.",
+        "source":  "felloai.com/how-to-claim-your-free-google-ai-pro-for-students; gemini.google/students; notesxp.app/blog/best-ai-tools-for-studying-2026; mystudylife.com 12-best-ai-study-tools",
+        "year":  "2026",
+        "strength":  "moderate",
+        "relevance":  "cross-cutting",
+        "facet":  "competitive-landscape",
+        "verdict":  null
+    },
+    {
+        "claim":  "GAP 1 — Persistent, inspectable cross-session study memory is unserved: no incumbent maintains longitudinal mastery state across sessions, and ChatGPT\u0027s memory stores compressed personal facts, not structured study state.",
+        "evidence":  "NotebookLM has no cross-notebook memory or synthesis (documented limitation); ChatGPT memory (upgraded 2025) saves \u0027compressed summaries, not full conversation histories\u0027 so students \u0027need to periodically remind ChatGPT of project context\u0027; Quizlet/StudyFetch/Turbo track per-deck stats only; Anki holds true scheduling state but is local, non-conversational, and 82.1% of med students find it overwhelming. A Claude-native pack can keep human-readable memory files (per-course mastery ledgers, error logs, citation databases) versioned in the user\u0027s own repo/project — durable, portable, auditable — for both Claude Code and claude.ai Projects.",
+        "source":  "Synthesis of: OpenAI Memory FAQ (https://help.openai.com/en/articles/8590148-memory-faq); atlasworkspace.ai NotebookLM limitations; PMC12662189 [fetched]",
+        "year":  "2026",
+        "strength":  "moderate",
+        "relevance":  "cross-cutting",
+        "facet":  "competitive-landscape",
+        "verdict":  null
+    },
+    {
+        "claim":  "GAP 2 — Unattended pipelines and scheduled study routines are essentially absent from the market: ChatGPT Tasks is the only incumbent scheduler and it is beta, capped at 10-15 tasks, and cannot touch files or study artifacts; no tool runs multi-step unattended jobs like \u0027ingest this week\u0027s lecture PDFs, update the deck, quiz me on weak items, email a study plan.\u0027",
+        "evidence":  "ChatGPT scheduled Tasks: 10 active tasks (Business/Edu), 15 (Pro/Enterprise), beta, no file uploads/GPT integration; Anki schedules reviews but has zero pipeline/automation around content ingestion (97.6% of med students fall back to pre-made decks); StudyFetch/Turbo/Mindgrasp are all pull-based (student must open app). Claude Code natively supports scheduled routines/cron triggers, subagents, hooks, and MCP integrations (Canvas LTI, Panopto, Wiley already exist per Anthropic), enabling nightly ingestion-to-spaced-repetition pipelines and exam-countdown routines no incumbent offers; a zero-install claude.ai skills pack covers non-technical students.",
+        "source":  "Synthesis of: OpenAI Help Center Scheduled Tasks (https://help.openai.com/en/articles/10291617); Anthropic advancing-claude-for-education [fetched]; PMC12662189 [fetched]",
+        "year":  "2026",
+        "strength":  "moderate",
+        "relevance":  "cross-cutting",
+        "facet":  "competitive-landscape",
+        "verdict":  null
+    },
+    {
+        "claim":  "GAP 3 — Anti-offloading by architecture: every incumbent\u0027s \u0027learning mode\u0027 is a voluntary toggle, so a Claude-native pack that enforces retrieval practice via workflow (quiz-before-answer skills, mastery gates persisted in memory, spaced-repetition scheduling) addresses the documented 47%-direct-answer problem in a way system-prompt toggles cannot.",
+        "evidence":  "Study Mode \u0027can simply be switched off... no guardrails\u0027 (OpenAI, via EdWeek/TechCrunch); Claude Learning Mode is likewise a style dropdown; Anthropic\u0027s own report shows ~47% of student conversations are minimal-engagement answer-seeking and Remembering-level use is 1.8%; meanwhile spaced repetition demonstrably works (Anki users +6.2-12.9% on med school exams). Skills/hooks can make Socratic flow the default path and log compliance to memory files — differentiation no chat toggle provides.",
+        "source":  "Synthesis of: Anthropic Education Report [fetched]; EdWeek Study Mode coverage (https://www.edweek.org/technology/what-teachers-should-know-about-chatgpts-new-study-mode-feature/2025/07); PMC10403443 Anki cohort study",
+        "year":  "2026",
+        "strength":  "moderate",
+        "relevance":  "study-memory",
+        "facet":  "competitive-landscape",
+        "verdict":  null
+    }
+]

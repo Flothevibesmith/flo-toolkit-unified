@@ -1,0 +1,19 @@
+{
+  "name": "flo-toolkit",
+  "owner": {
+    "name": "Andrei Florean",
+    "email": "andreiflorean71@gmail.com"
+  },
+  "description": "Flo's Toolkit — an AI study system for students, built on Claude",
+  "plugins": [
+    {
+      "name": "flo-toolkit",
+      "source": "./plugin",
+      "description": "Study coach for university students: exam kits, spaced-repetition quizzes from your own course materials, grounded notes, prompt-forging for vague questions, and per-course progress ledgers Claude maintains automatically.",
+      "author": {
+        "name": "Andrei Florean"
+      },
+      "keywords": ["study", "students", "spaced-repetition", "exam-prep", "education"]
+    }
+  ]
+}
