@@ -10,12 +10,12 @@ any shell — Node ships wherever Claude Code runs. (Skills work regardless of t
 the hook only adds the automatic session greeting.)
 
 > **Until the repo is published on GitHub**, replace
-> `Flothevibesmith/flo-toolkit` below with the local folder path of the repo (or the
+> `Flothevibesmith/flo-toolkit-unified` below with the local folder path of the repo (or the
 > unzipped download): `/plugin marketplace add C:\path\to\flo-toolkit`.
 
 ## Option A0 — claude.ai in the browser (no install app needed)
 claude.ai now has an in-app **Directory**. In claude.ai: open the **Directory →
-Plugins → Add marketplace → Add from a repository**, type `Flothevibesmith/flo-toolkit`
+Plugins → Add marketplace → Add from a repository**, type `Flothevibesmith/flo-toolkit-unified`
 (if it says "couldn't load the repository list", just type `owner/repo` and continue),
 then click **+** on **flo-toolkit** to add it. Its skills become available account-wide
 — then open/create a studies folder and say **set up my studies**. (Mobile shows
@@ -25,7 +25,7 @@ doesn't — every skill still works fully when called.*
 
 ## Option A — Claude Desktop app
 1. Install the Claude Desktop app and open the **Code** tab.
-2. In the prompt box, type: `/plugin marketplace add Flothevibesmith/flo-toolkit`
+2. In the prompt box, type: `/plugin marketplace add Flothevibesmith/flo-toolkit-unified`
    (one-time — this is Claude's trust gate; there's deliberately no shortcut).
 3. Then type: `/plugin install flo-toolkit@flo-toolkit` — if it asks for a scope,
    pick **user** (available everywhere, once, forever). You can also click **+** in
@@ -39,7 +39,7 @@ doesn't — every skill still works fully when called.*
 
 ## Option B — terminal (Claude Code)
 1. Open a terminal in your studies folder and start `claude`.
-2. Type: `/plugin marketplace add Flothevibesmith/flo-toolkit`
+2. Type: `/plugin marketplace add Flothevibesmith/flo-toolkit-unified`
 3. Type: `/plugin install flo-toolkit@flo-toolkit`
 4. Say **set up my studies**, then verify with **check my setup**.
 
