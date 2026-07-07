@@ -9,7 +9,7 @@ learning science says works, and **fixes vague questions before answering them**
 **Claude Code / Claude Desktop (Code tab) — two commands:**
 
 ```
-/plugin marketplace add floreanandrei/flo-toolkit
+/plugin marketplace add Flothevibesmith/flo-toolkit
 /plugin install flo-toolkit@flo-toolkit
 ```
 
