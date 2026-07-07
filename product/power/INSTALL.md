@@ -71,4 +71,6 @@ into it.
 
 Commands, same as everywhere: **set up my studies** · **make my exam kit** ·
 **quiz me** · **read this for me** · **explain this to me** · **review my draft** ·
-**export my progress** · **is it working?**
+**export my progress** · **is it working?** — plus one the plugin adds:
+**poke holes in this** (honest, ranked critique of a plan or argument before you
+commit; the paste-in claude.ai version routes this through general coaching).

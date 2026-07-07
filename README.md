@@ -30,6 +30,7 @@ Full guide with the Desktop point-and-click path and Cowork notes:
 | **read this for me** | Grounded structured notes + quiz items, every claim pointing to its source slide/page |
 | **explain this to me** | A real explanation at your level, plus one 15-second recall question so it sticks |
 | **review my draft** | Rubric feedback on your own writing — argument, structure, evidence, clarity |
+| **poke holes in this** | Honest, ranked critique of a plan, argument, or approach before you commit — the yes-man switched off *(plugin/power tier)* |
 
 Vague requests trigger **PromptForge**: 6–10 tap-answer questions, then it shows you
 the precise request it built and asks before running. Everything works in English
