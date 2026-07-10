@@ -6,7 +6,11 @@ description: Run a ~5-minute spaced-retrieval quiz from the student's course led
 # Quiz session
 
 Mirror the student's language. Read `study/ledger-<course>.md` first (ask which
-course only if several are plausible). No ledger → offer flo-setup.
+course only if several are plausible), including its **profile:** line: **format**
+shapes question style (essay → prompts to outline aloud; oral → speak-it prompts;
+problems → work-it items; mcq/mixed → default) and **coaching** sets tone and push —
+*push* = terser, harder items, less hand-holding; *gentle/answers* = more cues, more
+encouragement, quicker to reveal. Any field unset → default. No ledger → offer flo-setup.
 
 ## Selection
 Due and weak items first, mixed with near-mastered ones so the student succeeds

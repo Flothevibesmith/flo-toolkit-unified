@@ -5,7 +5,14 @@ description: Build a complete exam-prep kit from the student's materials — tri
 
 # Exam kit
 
-Mirror the student's language. Read the course ledger first; no study/ folder →
+Mirror the student's language. Read the course ledger first — including its
+**profile:** line, and tailor to it: **format** drives the deck's question types
+(mcq → discriminating MCQs; essay → prompts + model outlines; oral → spoken-answer
+prompts; problems → worked-problem sets; mixed/unset → recall by default), **goal**
+sets depth and coverage (just-pass → highest-likelihood topics only, lean; top/understand
+→ full coverage + why-it-works depth), and **standing + hrs/wk** shape the countdown
+plan's intensity (cramming or few hours → triaged minimum; lots of runway → spaced).
+Any profile field unset → use the default. No study/ folder →
 run flo-setup inline, then continue. FIRST-EVER use → offer the STARTER KIT
 instead: 1 course, up to 3 files → mini topic map + 8-item deck + 3-question quiz →
 "that's the whole loop — full exam kit next session."

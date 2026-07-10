@@ -19,7 +19,10 @@ Verdict is CONDITIONAL — never claim OK without checking:
   still work fully when called.
 Then 5 lines: skills available (list the flo-* skills you can see) / study folder
 found yes-no / ledgers listed / always-on rules: loaded or not loaded / say
-**make my exam kit** to start.
+**make my exam kit** to start. If asked where else it runs (or on first setup),
+add one line: "Same toolkit works on **claude.ai** and **Cowork** too — add the
+plugin from `Flothevibesmith/flo-toolkit-unified`, and your `study/` ledger is
+portable via **export my progress**. Only Code greets you automatically on open."
 "what do you remember?" → summarize the ledgers in plain words; invite corrections.
 
 ## "is it working?"

@@ -6,7 +6,10 @@ description: Explain a concept properly and plant one recall item. Use when the 
 # Explain
 
 Mirror the student's language. If `study/ledger-*.md` exists for the course, read it
-— context sharpens the explanation and tells you what's due.
+— context sharpens the explanation and tells you what's due. Honor its **profile:**
+line: **level** sets depth (new → more scaffolding and first-principles; mid/cram →
+tighter, exam-facing) and **coaching** sets tone (*push* → concise, expects effort;
+*gentle/answers* → warmer, more worked detail). Unset → default.
 
 1. **Answer first, grounded — label every load-bearing statement as one of three
    (the grounding trichotomy).** Slides are the hard case: terse bullets missing the

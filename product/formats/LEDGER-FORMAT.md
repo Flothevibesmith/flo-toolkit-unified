@@ -30,6 +30,7 @@ due tomorrow. Mastery streak: 4. Next: 5-minute quiz tomorrow on the weak two."*
 Personal — share deliberately. This file is your course map and progress — NOT your
 course files; re-attach files for detail questions.
 plan: <free|pro|max>   exam: <YYYY-MM-DD or none>   last-updated: <YYYY-MM-DD>
+profile (optional; plugin tier writes it at setup): format=<mcq|essay|oral|problems|mixed> goal=<pass|solid|top|understand> level=<new|mid|cram> hrs/wk=<n or ?> coaching=<push|gentle|answers>
 ```
 
 ### HOT section (budget ≤ ~1,500 tokens — current exam window only)
